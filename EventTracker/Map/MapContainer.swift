@@ -11,6 +11,7 @@ import UIKit
 final class MapContainer {
     let input: MapModuleInput
 	let viewController: UIViewController
+    let presenter: MapPresenter
 	private(set) weak var router: MapRouterInput!
 
 	class func assemble(with context: MapContext) -> MapContainer {
@@ -24,13 +25,14 @@ final class MapContainer {
 
 		interactor.output = presenter
 
-        return MapContainer(view: viewController, input: presenter, router: router)
+        return MapContainer(view: viewController, input: presenter, router: router, presenter: presenter)
 	}
 
-    private init(view: UIViewController, input: MapModuleInput, router: MapRouterInput) {
+    private init(view: UIViewController, input: MapModuleInput, router: MapRouterInput, presenter: MapPresenter) {
 		self.viewController = view
         self.input = input
 		self.router = router
+        self.presenter = presenter
 	}
 }
 

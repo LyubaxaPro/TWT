@@ -29,3 +29,6 @@ extension MapPresenter: MapViewOutput {
 
 extension MapPresenter: MapInteractorOutput {
 }
+
+extension MapPresenter: PosterModuleOutput {
+}

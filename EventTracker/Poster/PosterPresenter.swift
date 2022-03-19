@@ -29,3 +29,6 @@ extension PosterPresenter: PosterViewOutput {
 
 extension PosterPresenter: PosterInteractorOutput {
 }
+
+extension PosterPresenter: ProfileModuleOutput {
+}

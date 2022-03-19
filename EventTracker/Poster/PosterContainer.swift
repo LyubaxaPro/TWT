@@ -9,31 +9,28 @@
 import UIKit
 
 final class PosterContainer {
-    let input: PosterModuleInput
-	let viewController: UIViewController
-	private(set) weak var router: PosterRouterInput!
+    let viewController: UIViewController
+    let presenter: PosterPresenter
 
-	class func assemble(with context: PosterContext) -> PosterContainer {
+    private init(viewController: UIViewController, presenter: PosterPresenter) {
+        self.viewController = viewController
+        self.presenter = presenter
+    }
+
+    class func assemble(with context: PosterContext) -> PosterContainer {
         let router = PosterRouter()
         let interactor = PosterInteractor()
         let presenter = PosterPresenter(router: router, interactor: interactor)
-		let viewController = PosterViewController(output: presenter)
+        let viewController = PosterViewController(output: presenter)
+        presenter.moduleOutput = context.moduleOutput
 
-		presenter.view = viewController
-		presenter.moduleOutput = context.moduleOutput
+        presenter.view = viewController
+        interactor.output = presenter
 
-		interactor.output = presenter
-
-        return PosterContainer(view: viewController, input: presenter, router: router)
-	}
-
-    private init(view: UIViewController, input: PosterModuleInput, router: PosterRouterInput) {
-		self.viewController = view
-        self.input = input
-		self.router = router
-	}
+        return PosterContainer(viewController: viewController, presenter: presenter)
+    }
 }
 
 struct PosterContext {
-	weak var moduleOutput: PosterModuleOutput?
+    weak var moduleOutput: PosterModuleOutput?
 }
