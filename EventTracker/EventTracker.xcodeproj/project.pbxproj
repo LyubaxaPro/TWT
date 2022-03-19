@@ -238,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E89F97E27E63E1000BF6F1F /* Build configuration list for PBXNativeTarget "EventTracker" */;
 			buildPhases = (
+				5E89F9BC27E6439900BF6F1F /* Run SwiftLint */,
 				5E89F95027E63E0C00BF6F1F /* Sources */,
 				5E89F95127E63E0C00BF6F1F /* Frameworks */,
 				5E89F95227E63E0C00BF6F1F /* Resources */,
@@ -356,6 +357,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E89F9BC27E6439900BF6F1F /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E89F95027E63E0C00BF6F1F /* Sources */ = {
