@@ -12,20 +12,20 @@ protocol FavoritesModuleInput {
 	var moduleOutput: FavoritesModuleOutput? { get }
 }
 
-protocol FavoritesModuleOutput: class {
+protocol FavoritesModuleOutput: AnyObject {
 }
 
-protocol FavoritesViewInput: class {
+protocol FavoritesViewInput: AnyObject {
 }
 
-protocol FavoritesViewOutput: class {
+protocol FavoritesViewOutput: AnyObject {
 }
 
-protocol FavoritesInteractorInput: class {
+protocol FavoritesInteractorInput: AnyObject {
 }
 
-protocol FavoritesInteractorOutput: class {
+protocol FavoritesInteractorOutput: AnyObject {
 }
 
-protocol FavoritesRouterInput: class {
+protocol FavoritesRouterInput: AnyObject {
 }

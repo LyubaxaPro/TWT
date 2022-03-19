@@ -12,20 +12,20 @@ protocol PosterModuleInput {
 	var moduleOutput: PosterModuleOutput? { get }
 }
 
-protocol PosterModuleOutput: class {
+protocol PosterModuleOutput: AnyObject {
 }
 
-protocol PosterViewInput: class {
+protocol PosterViewInput: AnyObject {
 }
 
-protocol PosterViewOutput: class {
+protocol PosterViewOutput: AnyObject {
 }
 
-protocol PosterInteractorInput: class {
+protocol PosterInteractorInput: AnyObject {
 }
 
-protocol PosterInteractorOutput: class {
+protocol PosterInteractorOutput: AnyObject {
 }
 
-protocol PosterRouterInput: class {
+protocol PosterRouterInput: AnyObject {
 }

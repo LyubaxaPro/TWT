@@ -12,20 +12,20 @@ protocol MapModuleInput {
 	var moduleOutput: MapModuleOutput? { get }
 }
 
-protocol MapModuleOutput: class {
+protocol MapModuleOutput: AnyObject {
 }
 
-protocol MapViewInput: class {
+protocol MapViewInput: AnyObject {
 }
 
-protocol MapViewOutput: class {
+protocol MapViewOutput: AnyObject {
 }
 
-protocol MapInteractorInput: class {
+protocol MapInteractorInput: AnyObject {
 }
 
-protocol MapInteractorOutput: class {
+protocol MapInteractorOutput: AnyObject {
 }
 
-protocol MapRouterInput: class {
+protocol MapRouterInput: AnyObject {
 }
