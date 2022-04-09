@@ -18,6 +18,7 @@
 		5E3D9FE12801E47500BD9322 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FE02801E47500BD9322 /* FilterTableViewCell.swift */; };
 		5E3D9FE32801E49300BD9322 /* FilterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FE22801E49300BD9322 /* FilterInfo.swift */; };
 		5E3D9FE52801E4F900BD9322 /* ServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FE42801E4F900BD9322 /* ServiceData.swift */; };
+		5E3D9FE82801F68600BD9322 /* CustomButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */; };
 		5E89F95827E63E0C00BF6F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */; };
 		5E89F95A27E63E0C00BF6F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */; };
 		5E89F95C27E63E0C00BF6F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95B27E63E0C00BF6F1F /* ViewController.swift */; };
@@ -82,6 +83,7 @@
 		5E3D9FE02801E47500BD9322 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
 		5E3D9FE22801E49300BD9322 /* FilterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterInfo.swift; sourceTree = "<group>"; usesTabs = 0; };
 		5E3D9FE42801E4F900BD9322 /* ServiceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceData.swift; sourceTree = "<group>"; };
+		5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBuilder.swift; sourceTree = "<group>"; };
 		5E89F95427E63E0C00BF6F1F /* EventTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		5E89F94B27E63E0C00BF6F1F = {
 			isa = PBXGroup;
 			children = (
+				5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */,
 				5E3D9FE62801E88300BD9322 /* Profile */,
 				5E3D9FE42801E4F900BD9322 /* ServiceData.swift */,
 				5E89F9A227E63F1000BF6F1F /* Map */,
@@ -551,6 +554,7 @@
 				5E89F9A027E63F0C00BF6F1F /* FavoritesInteractor.swift in Sources */,
 				5E89F9B927E63F3300BF6F1F /* ProfileProtocols.swift in Sources */,
 				5E89F9AD27E63F1C00BF6F1F /* MapInteractor.swift in Sources */,
+				5E3D9FE82801F68600BD9322 /* CustomButtonBuilder.swift in Sources */,
 				5E89F9A927E63F1C00BF6F1F /* MapPresenter.swift in Sources */,
 				5E89F9B827E63F3300BF6F1F /* ProfileViewController.swift in Sources */,
 				5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */,

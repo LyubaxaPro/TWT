@@ -13,7 +13,7 @@ final class FilterViewController: UIViewController {
     private let output: FilterViewOutput
     private let tableView = UITableView(frame: .zero, style: UITableView.Style.grouped)
     private let filterArray: [String] = ["Изменить город", "Категории"]
-    private let acceptButton = UIButton()
+    private let acceptButton = CustomButtonBuilder().getCustomButton(title: "Применить")
 
     init(output: FilterViewOutput) {
         self.output = output
@@ -32,14 +32,7 @@ final class FilterViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         self.view.backgroundColor = .white
-
-        acceptButton.setTitle("Применить", for: .normal)
-        acceptButton.setTitleColor(.systemGray6, for: .normal)
-        acceptButton.addTarget(self, action: #selector(didTapAcceptButton),
-                         for: .touchUpInside)
-
-        acceptButton.backgroundColor = #colorLiteral(red: 0.4392156899, green:
-                                                    0.01176470611, blue: 0.1921568662, alpha: 0.8)
+        tableView.backgroundColor = .white
 
         tableView.register(TableViewCellWithLabel.self, forCellReuseIdentifier: "TableViewCellWithLabel")
 
@@ -48,17 +41,16 @@ final class FilterViewController: UIViewController {
     }
 
     override func viewDidLayoutSubviews() {
-        acceptButton.pin
-            .bottom(view.pin.safeArea.bottom)
-            .hCenter()
-            .height(60)
-            .width(400)
-
         tableView.pin
             .top()
             .right()
             .left()
-            .above(of: acceptButton)
+            .height(250)
+
+        acceptButton.pin
+            .below(of: tableView)
+            .hCenter()
+
 
     }
 
