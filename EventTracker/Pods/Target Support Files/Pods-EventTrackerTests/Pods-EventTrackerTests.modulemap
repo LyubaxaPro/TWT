@@ -1,0 +1,6 @@
+framework module Pods_EventTrackerTests {
+  umbrella header "Pods-EventTrackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

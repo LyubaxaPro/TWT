@@ -8,6 +8,11 @@
 
 import Foundation
 
+struct Coordinates {
+    var latitude: Double
+    var longitude: Double
+}
+
 final class MapPresenter {
 	weak var view: MapViewInput?
     weak var moduleOutput: MapModuleOutput?
