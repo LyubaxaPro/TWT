@@ -35,4 +35,5 @@ protocol FilterInteractorOutput: AnyObject {
 
 protocol FilterRouterInput: AnyObject {
     func closeFilter()
+    func showCitiesFilter(output: FilterPresenter, city: String)
 }

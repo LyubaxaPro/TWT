@@ -35,6 +35,9 @@ extension FilterPresenter: FilterViewOutput {
     }
 
     func didTapCell(with title: String) {
+        if title == "Изменить город" {
+            router.showCitiesFilter(output: self, city: filterInfo.city.cityName)
+        }
     }
 
     func didTapAcceptButton() {
@@ -52,4 +55,12 @@ extension FilterPresenter: FilterViewOutput {
 }
 
 extension FilterPresenter: FilterInteractorOutput {
+}
+
+extension FilterPresenter: CitiesFilterModuleOutput{
+
+    func serviceCity(serviceCity: String, cityName: String) {
+        filterInfo.city = City(cityName: cityName, cityInfo: serviceCity)
+        view?.update()
+    }
 }

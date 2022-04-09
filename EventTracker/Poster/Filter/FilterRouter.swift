@@ -13,6 +13,11 @@ final class FilterRouter {
 }
 
 extension FilterRouter: FilterRouterInput {
+    func showCitiesFilter(output: FilterPresenter, city: String) {
+        let container = CitiesFilterContainer.assemble(with: CitiesFilterContext(moduleOutput: output, previousCity: city))
+        sourceViewController?.navigationController?.pushViewController(container.viewController, animated: true)
+    }
+
     func closeFilter() {
         sourceViewController?.navigationController?.popViewController(animated: true)
     }
