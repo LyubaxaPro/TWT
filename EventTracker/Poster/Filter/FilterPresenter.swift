@@ -38,6 +38,10 @@ extension FilterPresenter: FilterViewOutput {
         if title == "Изменить город" {
             router.showCitiesFilter(output: self, city: filterInfo.city.cityName)
         }
+
+        if title == "Категории" {
+            router.showCategoriesFilter(output: self, categories: filterInfo.categories)
+        }
     }
 
     func didTapAcceptButton() {
@@ -61,6 +65,13 @@ extension FilterPresenter: CitiesFilterModuleOutput{
 
     func serviceCity(serviceCity: String, cityName: String) {
         filterInfo.city = City(cityName: cityName, cityInfo: serviceCity)
+        view?.update()
+    }
+}
+
+extension FilterPresenter: CategoriesFilterModuleOutput{
+    func didChangeChosenCategories (chosenCategories: [String : Bool]) {
+        filterInfo.categories = chosenCategories
         view?.update()
     }
 }

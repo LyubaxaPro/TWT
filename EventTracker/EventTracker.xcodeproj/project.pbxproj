@@ -26,6 +26,13 @@
 		5E3D9FF42801FA0300BD9322 /* CitiesFilterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FEE2801FA0300BD9322 /* CitiesFilterInteractor.swift */; };
 		5E3D9FF52801FA0300BD9322 /* CitiesFilterContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FEF2801FA0300BD9322 /* CitiesFilterContainer.swift */; };
 		5E3D9FF72801FA6700BD9322 /* CitiesFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FF62801FA6700BD9322 /* CitiesFilterCell.swift */; };
+		5E3D9FFE28020AC300BD9322 /* CategoriesFilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FF828020AC300BD9322 /* CategoriesFilterPresenter.swift */; };
+		5E3D9FFF28020AC300BD9322 /* CategoriesFilterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FF928020AC300BD9322 /* CategoriesFilterRouter.swift */; };
+		5E3DA00028020AC300BD9322 /* CategoriesFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FFA28020AC300BD9322 /* CategoriesFilterViewController.swift */; };
+		5E3DA00128020AC300BD9322 /* CategoriesFilterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FFB28020AC300BD9322 /* CategoriesFilterProtocols.swift */; };
+		5E3DA00228020AC300BD9322 /* CategoriesFilterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FFC28020AC300BD9322 /* CategoriesFilterInteractor.swift */; };
+		5E3DA00328020AC300BD9322 /* CategoriesFilterContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FFD28020AC300BD9322 /* CategoriesFilterContainer.swift */; };
+		5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DA00528020B2900BD9322 /* CategoriesFilterCell.swift */; };
 		5E89F95827E63E0C00BF6F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */; };
 		5E89F95A27E63E0C00BF6F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */; };
 		5E89F95C27E63E0C00BF6F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95B27E63E0C00BF6F1F /* ViewController.swift */; };
@@ -98,6 +105,13 @@
 		5E3D9FEE2801FA0300BD9322 /* CitiesFilterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFilterInteractor.swift; sourceTree = "<group>"; };
 		5E3D9FEF2801FA0300BD9322 /* CitiesFilterContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFilterContainer.swift; sourceTree = "<group>"; };
 		5E3D9FF62801FA6700BD9322 /* CitiesFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFilterCell.swift; sourceTree = "<group>"; };
+		5E3D9FF828020AC300BD9322 /* CategoriesFilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterPresenter.swift; sourceTree = "<group>"; };
+		5E3D9FF928020AC300BD9322 /* CategoriesFilterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterRouter.swift; sourceTree = "<group>"; };
+		5E3D9FFA28020AC300BD9322 /* CategoriesFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterViewController.swift; sourceTree = "<group>"; };
+		5E3D9FFB28020AC300BD9322 /* CategoriesFilterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterProtocols.swift; sourceTree = "<group>"; };
+		5E3D9FFC28020AC300BD9322 /* CategoriesFilterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterInteractor.swift; sourceTree = "<group>"; };
+		5E3D9FFD28020AC300BD9322 /* CategoriesFilterContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterContainer.swift; sourceTree = "<group>"; };
+		5E3DA00528020B2900BD9322 /* CategoriesFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterCell.swift; sourceTree = "<group>"; };
 		5E89F95427E63E0C00BF6F1F /* EventTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +190,7 @@
 		5E3D9FDF2801E3C400BD9322 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				5E3DA00428020ACC00BD9322 /* CategoriesFilter */,
 				5E3D9FE92801F9D000BD9322 /* CitiesFilter */,
 				5E3D9FD32801E3B100BD9322 /* FilterPresenter.swift */,
 				5E3D9FD42801E3B100BD9322 /* FilterRouter.swift */,
@@ -214,6 +229,20 @@
 				5E3D9FF62801FA6700BD9322 /* CitiesFilterCell.swift */,
 			);
 			path = CitiesFilter;
+			sourceTree = "<group>";
+		};
+		5E3DA00428020ACC00BD9322 /* CategoriesFilter */ = {
+			isa = PBXGroup;
+			children = (
+				5E3D9FF828020AC300BD9322 /* CategoriesFilterPresenter.swift */,
+				5E3D9FF928020AC300BD9322 /* CategoriesFilterRouter.swift */,
+				5E3D9FFA28020AC300BD9322 /* CategoriesFilterViewController.swift */,
+				5E3D9FFB28020AC300BD9322 /* CategoriesFilterProtocols.swift */,
+				5E3D9FFC28020AC300BD9322 /* CategoriesFilterInteractor.swift */,
+				5E3D9FFD28020AC300BD9322 /* CategoriesFilterContainer.swift */,
+				5E3DA00528020B2900BD9322 /* CategoriesFilterCell.swift */,
+			);
+			path = CategoriesFilter;
 			sourceTree = "<group>";
 		};
 		5E89F94B27E63E0C00BF6F1F = {
@@ -577,6 +606,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3DA00028020AC300BD9322 /* CategoriesFilterViewController.swift in Sources */,
 				5E89F9B627E63F3300BF6F1F /* ProfilePresenter.swift in Sources */,
 				5E89F99C27E63F0C00BF6F1F /* FavoritesPresenter.swift in Sources */,
 				5E89F99127E63EEE00BF6F1F /* PosterProtocols.swift in Sources */,
@@ -587,9 +617,12 @@
 				5E3D9FE82801F68600BD9322 /* CustomButtonBuilder.swift in Sources */,
 				5E3D9FF72801FA6700BD9322 /* CitiesFilterCell.swift in Sources */,
 				5E89F9A927E63F1C00BF6F1F /* MapPresenter.swift in Sources */,
+				5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */,
+				5E3DA00128020AC300BD9322 /* CategoriesFilterProtocols.swift in Sources */,
 				5E89F9B827E63F3300BF6F1F /* ProfileViewController.swift in Sources */,
 				5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */,
 				5E3D9FF52801FA0300BD9322 /* CitiesFilterContainer.swift in Sources */,
+				5E3D9FFE28020AC300BD9322 /* CategoriesFilterPresenter.swift in Sources */,
 				5E3D9FDA2801E3B100BD9322 /* FilterRouter.swift in Sources */,
 				5E89F9AA27E63F1C00BF6F1F /* MapRouter.swift in Sources */,
 				5E89F99227E63EEE00BF6F1F /* PosterInteractor.swift in Sources */,
@@ -599,6 +632,7 @@
 				5E89F9AE27E63F1C00BF6F1F /* MapContainer.swift in Sources */,
 				5E89F98E27E63EEE00BF6F1F /* PosterPresenter.swift in Sources */,
 				5E89F99327E63EEE00BF6F1F /* PosterContainer.swift in Sources */,
+				5E3DA00328020AC300BD9322 /* CategoriesFilterContainer.swift in Sources */,
 				5E3D9FDD2801E3B100BD9322 /* FilterInteractor.swift in Sources */,
 				5E3D9FF32801FA0300BD9322 /* CitiesFilterProtocols.swift in Sources */,
 				5E3D9FF12801FA0300BD9322 /* CitiesFilterRouter.swift in Sources */,
@@ -618,7 +652,9 @@
 				5E3D9FF22801FA0300BD9322 /* CitiesFilterViewController.swift in Sources */,
 				5E89F99E27E63F0C00BF6F1F /* FavoritesViewController.swift in Sources */,
 				5E3D9FE12801E47500BD9322 /* FilterTableViewCell.swift in Sources */,
+				5E3D9FFF28020AC300BD9322 /* CategoriesFilterRouter.swift in Sources */,
 				5E3D9FD92801E3B100BD9322 /* FilterPresenter.swift in Sources */,
+				5E3DA00228020AC300BD9322 /* CategoriesFilterInteractor.swift in Sources */,
 				5E89F99027E63EEE00BF6F1F /* PosterViewController.swift in Sources */,
 				5E3D9FE52801E4F900BD9322 /* ServiceData.swift in Sources */,
 			);

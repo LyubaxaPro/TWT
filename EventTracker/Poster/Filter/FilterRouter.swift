@@ -18,6 +18,11 @@ extension FilterRouter: FilterRouterInput {
         sourceViewController?.navigationController?.pushViewController(container.viewController, animated: true)
     }
 
+    func showCategoriesFilter(output: FilterPresenter, categories: [String : Bool]) {
+        let container = CategoriesFilterContainer.assemble(with: CategoriesFilterContext(moduleOutput: output, previousCategories: categories))
+        sourceViewController?.navigationController?.pushViewController(container.viewController, animated: true)
+    }
+
     func closeFilter() {
         sourceViewController?.navigationController?.popViewController(animated: true)
     }
