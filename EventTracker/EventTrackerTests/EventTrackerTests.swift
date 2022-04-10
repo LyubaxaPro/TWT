@@ -17,7 +17,7 @@ class EventTrackerTests: XCTestCase {
     }
 
     func testCitiesFilterUpdate() throws {
-        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorInputMock())
+        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorMock())
         let citiesFilterPresenter = CitiesFilterPresenter(
             router: CitiesFilterRouterInputMock(),
             interactor: CitiesFilterInteractorInputMock(),
@@ -31,7 +31,7 @@ class EventTrackerTests: XCTestCase {
     }
     
     func testCitiesFilterSameCity() throws {
-        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorInputMock())
+        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorMock())
         let citiesFilterPresenter = CitiesFilterPresenter(
             router: CitiesFilterRouterInputMock(),
             interactor: CitiesFilterInteractorInputMock(),
@@ -45,7 +45,7 @@ class EventTrackerTests: XCTestCase {
     }
     
     func testCategoriesFilterChoosen() throws {
-        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorInputMock())
+        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorMock())
         let categoriesFilterPresenter = CategoriesFilterPresenter(
             router: CategoriesFilterRouterInputMock(),
             interactor: CategoriesFilterInteractorInputMock(),
@@ -55,11 +55,11 @@ class EventTrackerTests: XCTestCase {
         categoriesFilterPresenter.didСhooseCheckmark(with: "test_category")
         
         XCTAssertEqual(categoriesFilterPresenter.chosenCategories["test_category"], true)
-        XCTAssertEqual(filterInfo.categories["test_category"], true)
+        XCTAssertEqual(filterPresenter.filterInfo.categories["test_category"], true)
     }
     
     func testCategoriesFilterCancel() throws {
-        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorInputMock())
+        let filterPresenter = FilterPresenter(router: FilterRouterInputMock(), interactor: FilterInteractorMock())
         let categoriesFilterPresenter = CategoriesFilterPresenter(
             router: CategoriesFilterRouterInputMock(),
             interactor: CategoriesFilterInteractorInputMock(),
@@ -69,12 +69,12 @@ class EventTrackerTests: XCTestCase {
         categoriesFilterPresenter.didСanceledCheckmark(with: "test_category")
         
         XCTAssertEqual(categoriesFilterPresenter.chosenCategories["test_category"], false)
-        XCTAssertEqual(filterInfo.categories["test_category"], false)
+        XCTAssertEqual(filterPresenter.filterInfo.categories["test_category"], false)
     }
     
     func testPosterServiceLoaderURL() throws {
         let posterServiceInfoMock = PosterServiceInfo(location: "msk", category: ["entertainment"])
-        let resultURLString = "https://kudago.com/public-api/v1.3/events/?location=msk&categories=entertainment&page_size=500&actual_since=1649609319.368928&fields=id,title,short_title,place,description,categories,age_restriction,price,is_free,images,site_url&expand=place"
+        let resultURLString = "https://kudago.com/public-api/v1.3/events/?location=msk&categories=entertainment&page_size=500&actual_since=\(Int(NSDate().timeIntervalSince1970))&fields=id,title,short_title,place,description,categories,age_restriction,price,is_free,images,site_url&expand=place"
         let posterServiceLoader = PosterServiceLoader(posters: posterServiceInfoMock)
         XCTAssertEqual(posterServiceLoader.posterUrl(), resultURLString)
     }
