@@ -1,5 +1,4 @@
 import Foundation
-import Firebase
 
 enum NetworkError: Error {
     case unexpected
