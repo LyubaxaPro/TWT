@@ -32,7 +32,7 @@ struct PosterResults: Codable {
         id = try container.decode(Int.self, forKey: .id)
         title = try container.decode(String.self, forKey: .title)
         short_title = try container.decode(String.self, forKey: .short_title)
-        place = try container.decode(Place?.self, forKey: .place)
+        place = try? container.decode(Place?.self, forKey: .place)
         description = try container.decode(String.self, forKey: .description)
         
         let raw_categories = try container.decode([String].self, forKey: .categories)

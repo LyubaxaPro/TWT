@@ -16,6 +16,12 @@
 		5E31460128033B8700485ADC /* PosterViewModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31460028033B8700485ADC /* PosterViewModelManager.swift */; };
 		5E31460328033C5800485ADC /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31460228033C5800485ADC /* AlertManager.swift */; };
 		5E31460528033C9900485ADC /* EntertaimentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31460428033C9900485ADC /* EntertaimentTableViewCell.swift */; };
+		5E3146162803547100485ADC /* FilterInteractorInputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3146142803547100485ADC /* FilterInteractorInputMock.swift */; };
+		5E3146172803547100485ADC /* FilterRouterInputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3146152803547100485ADC /* FilterRouterInputMock.swift */; };
+		5E3146222803551F00485ADC /* CitiesFilterInteractorInputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3146202803551F00485ADC /* CitiesFilterInteractorInputMock.swift */; };
+		5E3146232803551F00485ADC /* CitiesFilterRouterInputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3146212803551F00485ADC /* CitiesFilterRouterInputMock.swift */; };
+		5E3146242803568E00485ADC /* CategoriesFilterInteractorInputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31461E280354EF00485ADC /* CategoriesFilterInteractorInputMock.swift */; };
+		5E3146252803569100485ADC /* CategoriesFilterRouterInputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31461D280354EE00485ADC /* CategoriesFilterRouterInputMock.swift */; };
 		5E3D9FD92801E3B100BD9322 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FD32801E3B100BD9322 /* FilterPresenter.swift */; };
 		5E3D9FDA2801E3B100BD9322 /* FilterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FD42801E3B100BD9322 /* FilterRouter.swift */; };
 		5E3D9FDB2801E3B100BD9322 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FD52801E3B100BD9322 /* FilterViewController.swift */; };
@@ -102,6 +108,12 @@
 		5E31460028033B8700485ADC /* PosterViewModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterViewModelManager.swift; sourceTree = "<group>"; };
 		5E31460228033C5800485ADC /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		5E31460428033C9900485ADC /* EntertaimentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertaimentTableViewCell.swift; sourceTree = "<group>"; };
+		5E3146142803547100485ADC /* FilterInteractorInputMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterInteractorInputMock.swift; sourceTree = "<group>"; };
+		5E3146152803547100485ADC /* FilterRouterInputMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterRouterInputMock.swift; sourceTree = "<group>"; };
+		5E31461D280354EE00485ADC /* CategoriesFilterRouterInputMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterRouterInputMock.swift; sourceTree = "<group>"; };
+		5E31461E280354EF00485ADC /* CategoriesFilterInteractorInputMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterInteractorInputMock.swift; sourceTree = "<group>"; };
+		5E3146202803551F00485ADC /* CitiesFilterInteractorInputMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesFilterInteractorInputMock.swift; sourceTree = "<group>"; };
+		5E3146212803551F00485ADC /* CitiesFilterRouterInputMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesFilterRouterInputMock.swift; sourceTree = "<group>"; };
 		5E3D9FD32801E3B100BD9322 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
 		5E3D9FD42801E3B100BD9322 /* FilterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRouter.swift; sourceTree = "<group>"; };
 		5E3D9FD52801E3B100BD9322 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
@@ -201,9 +213,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E3146132803547100485ADC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5E3146142803547100485ADC /* FilterInteractorInputMock.swift */,
+				5E3146152803547100485ADC /* FilterRouterInputMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		5E3146182803549500485ADC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5E31461E280354EF00485ADC /* CategoriesFilterInteractorInputMock.swift */,
+				5E31461D280354EE00485ADC /* CategoriesFilterRouterInputMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		5E31461F2803551F00485ADC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5E3146202803551F00485ADC /* CitiesFilterInteractorInputMock.swift */,
+				5E3146212803551F00485ADC /* CitiesFilterRouterInputMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		5E3D9FDF2801E3C400BD9322 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				5E3146132803547100485ADC /* Mocks */,
 				5E3DA00428020ACC00BD9322 /* CategoriesFilter */,
 				5E3D9FE92801F9D000BD9322 /* CitiesFilter */,
 				5E3D9FD32801E3B100BD9322 /* FilterPresenter.swift */,
@@ -234,6 +274,7 @@
 		5E3D9FE92801F9D000BD9322 /* CitiesFilter */ = {
 			isa = PBXGroup;
 			children = (
+				5E31461F2803551F00485ADC /* Mocks */,
 				5E3D9FEA2801FA0300BD9322 /* CitiesFilterPresenter.swift */,
 				5E3D9FEB2801FA0300BD9322 /* CitiesFilterRouter.swift */,
 				5E3D9FEC2801FA0300BD9322 /* CitiesFilterViewController.swift */,
@@ -248,6 +289,7 @@
 		5E3DA00428020ACC00BD9322 /* CategoriesFilter */ = {
 			isa = PBXGroup;
 			children = (
+				5E3146182803549500485ADC /* Mocks */,
 				5E3D9FF828020AC300BD9322 /* CategoriesFilterPresenter.swift */,
 				5E3D9FF928020AC300BD9322 /* CategoriesFilterRouter.swift */,
 				5E3D9FFA28020AC300BD9322 /* CategoriesFilterViewController.swift */,
@@ -629,6 +671,7 @@
 			files = (
 				5E3DA00028020AC300BD9322 /* CategoriesFilterViewController.swift in Sources */,
 				5E89F9B627E63F3300BF6F1F /* ProfilePresenter.swift in Sources */,
+				5E3146232803551F00485ADC /* CitiesFilterRouterInputMock.swift in Sources */,
 				5E89F99C27E63F0C00BF6F1F /* FavoritesPresenter.swift in Sources */,
 				5E31460128033B8700485ADC /* PosterViewModelManager.swift in Sources */,
 				5E89F99127E63EEE00BF6F1F /* PosterProtocols.swift in Sources */,
@@ -642,12 +685,14 @@
 				5E89F9A927E63F1C00BF6F1F /* MapPresenter.swift in Sources */,
 				5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */,
 				5E3DA00128020AC300BD9322 /* CategoriesFilterProtocols.swift in Sources */,
+				5E3146172803547100485ADC /* FilterRouterInputMock.swift in Sources */,
 				5E31460528033C9900485ADC /* EntertaimentTableViewCell.swift in Sources */,
 				5E3145FE28033B5200485ADC /* PosterManager.swift in Sources */,
 				5E89F9B827E63F3300BF6F1F /* ProfileViewController.swift in Sources */,
 				5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */,
 				5E3D9FF52801FA0300BD9322 /* CitiesFilterContainer.swift in Sources */,
 				5E3D9FFE28020AC300BD9322 /* CategoriesFilterPresenter.swift in Sources */,
+				5E3146222803551F00485ADC /* CitiesFilterInteractorInputMock.swift in Sources */,
 				5E3D9FDA2801E3B100BD9322 /* FilterRouter.swift in Sources */,
 				5E89F9AA27E63F1C00BF6F1F /* MapRouter.swift in Sources */,
 				5E89F99227E63EEE00BF6F1F /* PosterInteractor.swift in Sources */,
@@ -663,9 +708,11 @@
 				5E3D9FF32801FA0300BD9322 /* CitiesFilterProtocols.swift in Sources */,
 				5E3D9FF12801FA0300BD9322 /* CitiesFilterRouter.swift in Sources */,
 				5E89F9AC27E63F1C00BF6F1F /* MapProtocols.swift in Sources */,
+				5E3146252803569100485ADC /* CategoriesFilterRouterInputMock.swift in Sources */,
 				5E3145FC28033B5200485ADC /* PosterModelLoader.swift in Sources */,
 				5E3D9FF02801FA0300BD9322 /* CitiesFilterPresenter.swift in Sources */,
 				5E3D9FDE2801E3B100BD9322 /* FilterContainer.swift in Sources */,
+				5E3146162803547100485ADC /* FilterInteractorInputMock.swift in Sources */,
 				5E89F99F27E63F0C00BF6F1F /* FavoritesProtocols.swift in Sources */,
 				5E89F95827E63E0C00BF6F1F /* AppDelegate.swift in Sources */,
 				5E89F95A27E63E0C00BF6F1F /* SceneDelegate.swift in Sources */,
@@ -673,6 +720,7 @@
 				5E3D9FE32801E49300BD9322 /* FilterInfo.swift in Sources */,
 				5E89F98F27E63EEE00BF6F1F /* PosterRouter.swift in Sources */,
 				5E89F9AB27E63F1C00BF6F1F /* MapViewController.swift in Sources */,
+				5E3146242803568E00485ADC /* CategoriesFilterInteractorInputMock.swift in Sources */,
 				5E3D9FDB2801E3B100BD9322 /* FilterViewController.swift in Sources */,
 				5E89F9A127E63F0C00BF6F1F /* FavoritesContainer.swift in Sources */,
 				5E31460328033C5800485ADC /* AlertManager.swift in Sources */,
