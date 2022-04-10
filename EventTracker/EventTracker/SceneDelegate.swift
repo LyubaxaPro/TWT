@@ -42,19 +42,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let profileViewControllerFromContainer = profileContainer.viewController
         let profileViewController = UINavigationController(rootViewController: profileViewControllerFromContainer)
 
+        let filterContainer = FilterContainer.assemble(with: FilterContext(moduleOutput: nil, cityService: "msk"))
+        let filterViewController = UINavigationController(rootViewController: filterContainer.viewController)
+
+
         posterViewController.title = "Афиша"
         favoritesViewController.title = "Избранное"
         mapViewController.title = "Карта"
         profileViewController.title = "Профиль"
+        filterViewController.title = "Фильтр"
 
         tabBarViewController.setViewControllers([posterViewController, favoritesViewController,
-                            mapViewController, profileViewController], animated: false)
+                            mapViewController, profileViewController, filterViewController], animated: false)
 
         guard let items = tabBarViewController.tabBar.items else {
             return
         }
 
-        let images = ["calendar", "star", "map", "person.crop.circle"]
+        let images = ["calendar", "star", "map", "person.crop.circle", "pencil"]
         for temp in 0..<items.count {
             items[temp].image = UIImage(systemName: images[temp])
         }
