@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		25836CAB6432692F061508AA /* Pods_EventTracker_EventTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEBA0AF5F8BE977D84AE0C0 /* Pods_EventTracker_EventTrackerUITests.framework */; };
 		400C1DFD6298E809146CD459 /* Pods_EventTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E113B02ADC5CDBC17555AB /* Pods_EventTrackerTests.framework */; };
+		5E3145FC28033B5200485ADC /* PosterModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145F828033B5100485ADC /* PosterModelLoader.swift */; };
+		5E3145FD28033B5200485ADC /* PosterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145F928033B5100485ADC /* PosterViewModel.swift */; };
+		5E3145FE28033B5200485ADC /* PosterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145FA28033B5100485ADC /* PosterManager.swift */; };
+		5E3145FF28033B5200485ADC /* PosterServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145FB28033B5100485ADC /* PosterServiceModel.swift */; };
+		5E31460128033B8700485ADC /* PosterViewModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31460028033B8700485ADC /* PosterViewModelManager.swift */; };
+		5E31460328033C5800485ADC /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31460228033C5800485ADC /* AlertManager.swift */; };
+		5E31460528033C9900485ADC /* EntertaimentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31460428033C9900485ADC /* EntertaimentTableViewCell.swift */; };
 		5E3D9FD92801E3B100BD9322 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FD32801E3B100BD9322 /* FilterPresenter.swift */; };
 		5E3D9FDA2801E3B100BD9322 /* FilterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FD42801E3B100BD9322 /* FilterRouter.swift */; };
 		5E3D9FDB2801E3B100BD9322 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FD52801E3B100BD9322 /* FilterViewController.swift */; };
@@ -88,6 +95,13 @@
 
 /* Begin PBXFileReference section */
 		07498AD82BBE2CA10733FB14 /* Pods-EventTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTracker.release.xcconfig"; path = "Target Support Files/Pods-EventTracker/Pods-EventTracker.release.xcconfig"; sourceTree = "<group>"; };
+		5E3145F828033B5100485ADC /* PosterModelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterModelLoader.swift; sourceTree = "<group>"; };
+		5E3145F928033B5100485ADC /* PosterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterViewModel.swift; sourceTree = "<group>"; };
+		5E3145FA28033B5100485ADC /* PosterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterManager.swift; sourceTree = "<group>"; };
+		5E3145FB28033B5100485ADC /* PosterServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterServiceModel.swift; sourceTree = "<group>"; };
+		5E31460028033B8700485ADC /* PosterViewModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterViewModelManager.swift; sourceTree = "<group>"; };
+		5E31460228033C5800485ADC /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		5E31460428033C9900485ADC /* EntertaimentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertaimentTableViewCell.swift; sourceTree = "<group>"; };
 		5E3D9FD32801E3B100BD9322 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
 		5E3D9FD42801E3B100BD9322 /* FilterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRouter.swift; sourceTree = "<group>"; };
 		5E3D9FD52801E3B100BD9322 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
@@ -248,6 +262,7 @@
 		5E89F94B27E63E0C00BF6F1F = {
 			isa = PBXGroup;
 			children = (
+				5E31460228033C5800485ADC /* AlertManager.swift */,
 				5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */,
 				5E3D9FE62801E88300BD9322 /* Profile */,
 				5E3D9FE42801E4F900BD9322 /* ServiceData.swift */,
@@ -307,6 +322,11 @@
 		5E89F98727E63EDE00BF6F1F /* Poster */ = {
 			isa = PBXGroup;
 			children = (
+				5E31460028033B8700485ADC /* PosterViewModelManager.swift */,
+				5E3145FA28033B5100485ADC /* PosterManager.swift */,
+				5E3145F828033B5100485ADC /* PosterModelLoader.swift */,
+				5E3145FB28033B5100485ADC /* PosterServiceModel.swift */,
+				5E3145F928033B5100485ADC /* PosterViewModel.swift */,
 				5E3D9FDF2801E3C400BD9322 /* Filter */,
 				5E89F98827E63EEE00BF6F1F /* PosterPresenter.swift */,
 				5E89F98927E63EEE00BF6F1F /* PosterRouter.swift */,
@@ -314,6 +334,7 @@
 				5E89F98B27E63EEE00BF6F1F /* PosterProtocols.swift */,
 				5E89F98C27E63EEE00BF6F1F /* PosterInteractor.swift */,
 				5E89F98D27E63EEE00BF6F1F /* PosterContainer.swift */,
+				5E31460428033C9900485ADC /* EntertaimentTableViewCell.swift */,
 			);
 			path = Poster;
 			sourceTree = "<group>";
@@ -609,6 +630,7 @@
 				5E3DA00028020AC300BD9322 /* CategoriesFilterViewController.swift in Sources */,
 				5E89F9B627E63F3300BF6F1F /* ProfilePresenter.swift in Sources */,
 				5E89F99C27E63F0C00BF6F1F /* FavoritesPresenter.swift in Sources */,
+				5E31460128033B8700485ADC /* PosterViewModelManager.swift in Sources */,
 				5E89F99127E63EEE00BF6F1F /* PosterProtocols.swift in Sources */,
 				5E3D9FF42801FA0300BD9322 /* CitiesFilterInteractor.swift in Sources */,
 				5E89F9A027E63F0C00BF6F1F /* FavoritesInteractor.swift in Sources */,
@@ -616,9 +638,12 @@
 				5E89F9AD27E63F1C00BF6F1F /* MapInteractor.swift in Sources */,
 				5E3D9FE82801F68600BD9322 /* CustomButtonBuilder.swift in Sources */,
 				5E3D9FF72801FA6700BD9322 /* CitiesFilterCell.swift in Sources */,
+				5E3145FD28033B5200485ADC /* PosterViewModel.swift in Sources */,
 				5E89F9A927E63F1C00BF6F1F /* MapPresenter.swift in Sources */,
 				5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */,
 				5E3DA00128020AC300BD9322 /* CategoriesFilterProtocols.swift in Sources */,
+				5E31460528033C9900485ADC /* EntertaimentTableViewCell.swift in Sources */,
+				5E3145FE28033B5200485ADC /* PosterManager.swift in Sources */,
 				5E89F9B827E63F3300BF6F1F /* ProfileViewController.swift in Sources */,
 				5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */,
 				5E3D9FF52801FA0300BD9322 /* CitiesFilterContainer.swift in Sources */,
@@ -634,9 +659,11 @@
 				5E89F99327E63EEE00BF6F1F /* PosterContainer.swift in Sources */,
 				5E3DA00328020AC300BD9322 /* CategoriesFilterContainer.swift in Sources */,
 				5E3D9FDD2801E3B100BD9322 /* FilterInteractor.swift in Sources */,
+				5E3145FF28033B5200485ADC /* PosterServiceModel.swift in Sources */,
 				5E3D9FF32801FA0300BD9322 /* CitiesFilterProtocols.swift in Sources */,
 				5E3D9FF12801FA0300BD9322 /* CitiesFilterRouter.swift in Sources */,
 				5E89F9AC27E63F1C00BF6F1F /* MapProtocols.swift in Sources */,
+				5E3145FC28033B5200485ADC /* PosterModelLoader.swift in Sources */,
 				5E3D9FF02801FA0300BD9322 /* CitiesFilterPresenter.swift in Sources */,
 				5E3D9FDE2801E3B100BD9322 /* FilterContainer.swift in Sources */,
 				5E89F99F27E63F0C00BF6F1F /* FavoritesProtocols.swift in Sources */,
@@ -648,6 +675,7 @@
 				5E89F9AB27E63F1C00BF6F1F /* MapViewController.swift in Sources */,
 				5E3D9FDB2801E3B100BD9322 /* FilterViewController.swift in Sources */,
 				5E89F9A127E63F0C00BF6F1F /* FavoritesContainer.swift in Sources */,
+				5E31460328033C5800485ADC /* AlertManager.swift in Sources */,
 				5E89F99D27E63F0C00BF6F1F /* FavoritesRouter.swift in Sources */,
 				5E3D9FF22801FA0300BD9322 /* CitiesFilterViewController.swift in Sources */,
 				5E89F99E27E63F0C00BF6F1F /* FavoritesViewController.swift in Sources */,
