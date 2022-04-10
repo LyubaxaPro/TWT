@@ -38,6 +38,8 @@ final class FilterViewController: UIViewController {
 
         view.addSubview(tableView)
         view.addSubview(acceptButton)
+        
+        acceptButton.addTarget(self, action: #selector(didTapAcceptButton), for: .touchUpInside)
     }
 
     override func viewDidLayoutSubviews() {
