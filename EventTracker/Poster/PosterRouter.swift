@@ -11,9 +11,6 @@ extension PosterRouter: PosterRouterInput {
     }
     
     func showPoster(with model: PosterViewModel, isInFavorites: Bool, output: PosterPresenter) {
-        
-        let detailContainer = DetailContainer.assemble(with: DetailContext(moduleOutput: output, poster: model, isInFavorites: isInFavorites))
-        sourceViewController?.navigationController?.pushViewController(detailContainer.viewController, animated: true)
     }
     
     func showAlertErrorMessage(with message: String) {

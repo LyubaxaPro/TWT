@@ -36,4 +36,10 @@ extension MapPresenter: MapInteractorOutput {
 }
 
 extension MapPresenter: PosterModuleOutput {
+    func setNewPosters(posters: [PosterResults]) {
+    }
+
+    func setNewCity(cityService: String) {
+    }
+
 }

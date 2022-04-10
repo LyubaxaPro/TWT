@@ -20,8 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let tabBarViewController = UITabBarController()
 
-        tabBarViewController.tabBar.backgroundColor = .lightGray
-
         let navigationController = UINavigationController(rootViewController: tabBarViewController)
         navigationController.setNavigationBarHidden(true, animated: true)
 
@@ -39,27 +37,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let profileContainer = ProfileContainer.assemble(with: ProfileContext(moduleOutput:
                                                         posterContainer.presenter, tabBar: tabBarViewController))
+
         let profileViewControllerFromContainer = profileContainer.viewController
         let profileViewController = UINavigationController(rootViewController: profileViewControllerFromContainer)
-
-        let filterContainer = FilterContainer.assemble(with: FilterContext(moduleOutput: nil, cityService: "msk"))
-        let filterViewController = UINavigationController(rootViewController: filterContainer.viewController)
 
 
         posterViewController.title = "Афиша"
         favoritesViewController.title = "Избранное"
         mapViewController.title = "Карта"
         profileViewController.title = "Профиль"
-        filterViewController.title = "Фильтр"
 
         tabBarViewController.setViewControllers([posterViewController, favoritesViewController,
-                            mapViewController, profileViewController, filterViewController], animated: false)
+                            mapViewController, profileViewController], animated: false)
 
         guard let items = tabBarViewController.tabBar.items else {
             return
         }
 
-        let images = ["calendar", "star", "map", "person.crop.circle", "pencil"]
+        let images = ["calendar", "star", "map", "person.crop.circle"]
         for temp in 0..<items.count {
             items[temp].image = UIImage(systemName: images[temp])
         }
