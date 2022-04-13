@@ -79,6 +79,9 @@
 		5E89F9B927E63F3300BF6F1F /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */; };
 		5E89F9BA27E63F3300BF6F1F /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */; };
 		5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */; };
+		5EB657A02806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
+		5EB657A12806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
+		5EB657A22806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
 		E7B22402C221BCC123FB6EF4 /* Pods_EventTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDCE8C95F49B9419418B9 /* Pods_EventTracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -175,6 +178,7 @@
 		5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
 		5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainer.swift; sourceTree = "<group>"; };
+		5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63A61CBD918D051A001BA066 /* Pods-EventTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-EventTrackerTests/Pods-EventTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		84C4AFCD28996FAFA6E1A4F2 /* Pods-EventTracker-EventTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTracker-EventTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-EventTracker-EventTrackerUITests/Pods-EventTracker-EventTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		953F2A32B4EEA73A73CCE08A /* Pods-EventTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTracker.debug.xcconfig"; path = "Target Support Files/Pods-EventTracker/Pods-EventTracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -304,6 +308,7 @@
 		5E89F94B27E63E0C00BF6F1F = {
 			isa = PBXGroup;
 			children = (
+				5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */,
 				5E31460228033C5800485ADC /* AlertManager.swift */,
 				5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */,
 				5E3D9FE62801E88300BD9322 /* Profile */,
@@ -540,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E89F96427E63E1000BF6F1F /* LaunchScreen.storyboard in Resources */,
+				5EB657A02806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 				5E89F96127E63E1000BF6F1F /* Assets.xcassets in Resources */,
 				5E89F95F27E63E0C00BF6F1F /* Main.storyboard in Resources */,
 			);
@@ -549,6 +555,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB657A12806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +563,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB657A22806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
