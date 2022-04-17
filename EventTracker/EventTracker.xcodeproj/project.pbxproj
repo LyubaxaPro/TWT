@@ -54,6 +54,7 @@
 		5E5199EF280C8F1B00A2298B /* ChangeUserProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5199E9280C8F1B00A2298B /* ChangeUserProfileProtocols.swift */; };
 		5E5199F0280C8F1B00A2298B /* ChangeUserProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5199EA280C8F1B00A2298B /* ChangeUserProfileInteractor.swift */; };
 		5E5199F1280C8F1B00A2298B /* ChangeUserProfileContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5199EB280C8F1B00A2298B /* ChangeUserProfileContainer.swift */; };
+		5E5199F7280C9BB700A2298B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E5199F6280C9BB700A2298B /* GoogleService-Info.plist */; };
 		5E89F95827E63E0C00BF6F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */; };
 		5E89F95A27E63E0C00BF6F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */; };
 		5E89F95C27E63E0C00BF6F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95B27E63E0C00BF6F1F /* ViewController.swift */; };
@@ -87,9 +88,6 @@
 		5E89F9B927E63F3300BF6F1F /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */; };
 		5E89F9BA27E63F3300BF6F1F /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */; };
 		5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */; };
-		5EB657A02806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
-		5EB657A12806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
-		5EB657A22806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
 		5EB657AA2806F07F006C21F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A42806F07F006C21F6 /* LoginPresenter.swift */; };
 		5EB657AB2806F07F006C21F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A42806F07F006C21F6 /* LoginPresenter.swift */; };
 		5EB657AD2806F07F006C21F6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A52806F07F006C21F6 /* LoginRouter.swift */; };
@@ -181,6 +179,7 @@
 		5E5199E9280C8F1B00A2298B /* ChangeUserProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserProfileProtocols.swift; sourceTree = "<group>"; };
 		5E5199EA280C8F1B00A2298B /* ChangeUserProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserProfileInteractor.swift; sourceTree = "<group>"; };
 		5E5199EB280C8F1B00A2298B /* ChangeUserProfileContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserProfileContainer.swift; sourceTree = "<group>"; };
+		5E5199F6280C9BB700A2298B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E89F95427E63E0C00BF6F1F /* EventTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -218,7 +217,6 @@
 		5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
 		5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainer.swift; sourceTree = "<group>"; };
-		5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5EB657A42806F07F006C21F6 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		5EB657A52806F07F006C21F6 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		5EB657A62806F07F006C21F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -373,8 +371,8 @@
 		5E89F94B27E63E0C00BF6F1F = {
 			isa = PBXGroup;
 			children = (
+				5E5199F6280C9BB700A2298B /* GoogleService-Info.plist */,
 				5EB657A32806F05C006C21F6 /* Login */,
-				5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */,
 				5E31460228033C5800485ADC /* AlertManager.swift */,
 				5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */,
 				5E3D9FE62801E88300BD9322 /* Profile */,
@@ -626,7 +624,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E89F96427E63E1000BF6F1F /* LaunchScreen.storyboard in Resources */,
-				5EB657A02806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
+				5E5199F7280C9BB700A2298B /* GoogleService-Info.plist in Resources */,
 				5E89F96127E63E1000BF6F1F /* Assets.xcassets in Resources */,
 				5E89F95F27E63E0C00BF6F1F /* Main.storyboard in Resources */,
 			);
@@ -636,7 +634,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB657A12806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,7 +641,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB657A22806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

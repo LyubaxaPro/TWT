@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>487713596121-i7q8dbom1hulkib8kq95ld5khvjrhf2e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.487713596121-i7q8dbom1hulkib8kq95ld5khvjrhf2e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgwC4QEhaaiN_nM7Hv3OM960cK2muAx2A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>487713596121</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>EventTracker.com.EventTracker</string>
+	<key>PROJECT_ID</key>
+	<string>eventtracker-3500c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eventtracker-3500c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:487713596121:ios:588bc7207e012310fcd4c8</string>
+	<key>DATABASE_URL</key>
+	<string>https://eventtracker-3500c-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
