@@ -74,6 +74,11 @@ extension PosterPresenter: PosterInteractorOutput {
 }
 
 extension PosterPresenter: ProfileModuleOutput {
+    func update() {
+        self.serviceInfos = PosterServiceInfo(location:"msk", category: [])
+        didLoadView()
+        router.clearViewStack()
+    }
 }
 
 extension PosterPresenter: FilterModuleOutput {

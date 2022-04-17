@@ -21,4 +21,13 @@ extension ProfileRouter: ProfileRouterInput {
         navigationController.modalPresentationStyle = .fullScreen
         sourceViewController?.present(navigationController, animated: true, completion: nil)
     }
+
+    func showAlertErrorMessage(with message: String) {
+        sourceViewController?.present(AlertManager.getAlert(description: message), animated: true, completion: nil)
+    }
+
+    func openChangeUserProfile(output: ProfilePresenter, userInfo: UserProfileViewModel) {
+        let container = ChangeUserProfileContainer.assemble(with: ChangeUserProfileContext(moduleOutput: output as! ChangeUserProfileModuleOutput, userInfo: userInfo))
+        sourceViewController?.navigationController?.pushViewController(container.viewController, animated: true)
+    }
 }

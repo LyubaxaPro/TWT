@@ -6,20 +6,17 @@
 //
 
 import UIKit
-import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession,
-               options connectionOptions: UIScene.ConnectionOptions) {
+
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         let window = UIWindow(windowScene: windowScene)
-
-        FirebaseApp.configure()
 
         let tabBarViewController = UITabBarController()
 
@@ -38,29 +35,26 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let favoritesViewControllerFromContainer = favoritesContainer.viewController
         let favoritesViewController = UINavigationController(rootViewController: favoritesViewControllerFromContainer)
 
-        let profileContainer = ProfileContainer.assemble(with: ProfileContext(moduleOutput:
-                                                        posterContainer.presenter, tabBar: tabBarViewController))
-
+        let profileContainer = ProfileContainer.assemble(with: ProfileContext(moduleOutput: posterContainer.presenter, tabBar: tabBarViewController))
         let profileViewControllerFromContainer = profileContainer.viewController
         let profileViewController = UINavigationController(rootViewController: profileViewControllerFromContainer)
-
 
         posterViewController.title = "Афиша"
         favoritesViewController.title = "Избранное"
         mapViewController.title = "Карта"
         profileViewController.title = "Профиль"
 
-        tabBarViewController.setViewControllers([posterViewController, favoritesViewController,
-                            mapViewController, profileViewController], animated: false)
+        tabBarViewController.setViewControllers([posterViewController, favoritesViewController, mapViewController, profileViewController], animated: false)
 
         guard let items = tabBarViewController.tabBar.items else {
             return
         }
 
         let images = ["calendar", "star", "map", "person.crop.circle"]
-        for temp in 0..<items.count {
-            items[temp].image = UIImage(systemName: images[temp])
+        for i in 0..<items.count {
+            items[i].image = UIImage(systemName: images[i])
         }
+
 
         window.rootViewController = navigationController
 
@@ -85,4 +79,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidEnterBackground(_ scene: UIScene) {
     }
 
+
 }
+

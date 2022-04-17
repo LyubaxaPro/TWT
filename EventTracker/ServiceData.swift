@@ -7,6 +7,11 @@
 
 import Foundation
 
+struct Coordinates {
+    var latitude: Double
+    var longitude: Double
+}
+
 protocol ServiceDataDescription: AnyObject {
     func getCities() -> [String: String]
     func getCategories() -> [String: String]
