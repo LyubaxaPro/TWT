@@ -34,6 +34,7 @@ extension ProfilePresenter: ProfileModuleInput {
 
 extension ProfilePresenter: ProfileViewOutput {
     func didTapChange() {
+        router.openChangeUserProfile(output: self, userInfo: userInfo)
     }
 
     func didLoadView() {
@@ -73,3 +74,8 @@ extension ProfilePresenter: ProfileInteractorOutput {
 extension ProfilePresenter: LoginModuleOutput {
 }
 
+extension ProfilePresenter: ChangeUserProfileModuleOutput {
+    func didChangeCity() {
+        moduleOutput?.update()
+    }
+}

@@ -41,4 +41,5 @@ protocol ProfileInteractorOutput: AnyObject {
 protocol ProfileRouterInput: AnyObject {
     func showLoginView(output: ProfilePresenter)
     func showAlertErrorMessage(with message: String)
+    func openChangeUserProfile(output: ProfilePresenter, userInfo: UserProfileViewModel)
 }
