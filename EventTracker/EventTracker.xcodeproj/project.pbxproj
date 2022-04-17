@@ -79,6 +79,36 @@
 		5E89F9B927E63F3300BF6F1F /* ProfileProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */; };
 		5E89F9BA27E63F3300BF6F1F /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */; };
 		5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */; };
+		5EB657A02806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
+		5EB657A12806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
+		5EB657A22806ED88006C21F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */; };
+		5EB657AA2806F07F006C21F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A42806F07F006C21F6 /* LoginPresenter.swift */; };
+		5EB657AB2806F07F006C21F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A42806F07F006C21F6 /* LoginPresenter.swift */; };
+		5EB657AC2806F07F006C21F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A42806F07F006C21F6 /* LoginPresenter.swift */; };
+		5EB657AD2806F07F006C21F6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A52806F07F006C21F6 /* LoginRouter.swift */; };
+		5EB657AE2806F07F006C21F6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A52806F07F006C21F6 /* LoginRouter.swift */; };
+		5EB657AF2806F07F006C21F6 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A52806F07F006C21F6 /* LoginRouter.swift */; };
+		5EB657B02806F07F006C21F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A62806F07F006C21F6 /* LoginViewController.swift */; };
+		5EB657B12806F07F006C21F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A62806F07F006C21F6 /* LoginViewController.swift */; };
+		5EB657B22806F07F006C21F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A62806F07F006C21F6 /* LoginViewController.swift */; };
+		5EB657B32806F07F006C21F6 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A72806F07F006C21F6 /* LoginProtocols.swift */; };
+		5EB657B42806F07F006C21F6 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A72806F07F006C21F6 /* LoginProtocols.swift */; };
+		5EB657B52806F07F006C21F6 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A72806F07F006C21F6 /* LoginProtocols.swift */; };
+		5EB657B62806F07F006C21F6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A82806F07F006C21F6 /* LoginInteractor.swift */; };
+		5EB657B72806F07F006C21F6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A82806F07F006C21F6 /* LoginInteractor.swift */; };
+		5EB657B82806F07F006C21F6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A82806F07F006C21F6 /* LoginInteractor.swift */; };
+		5EB657B92806F07F006C21F6 /* LoginContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A92806F07F006C21F6 /* LoginContainer.swift */; };
+		5EB657BA2806F07F006C21F6 /* LoginContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A92806F07F006C21F6 /* LoginContainer.swift */; };
+		5EB657BB2806F07F006C21F6 /* LoginContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657A92806F07F006C21F6 /* LoginContainer.swift */; };
+		5EB657BD2806F0E1006C21F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657BC2806F0E1006C21F6 /* LoginView.swift */; };
+		5EB657BE2806F0E1006C21F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657BC2806F0E1006C21F6 /* LoginView.swift */; };
+		5EB657BF2806F0E1006C21F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657BC2806F0E1006C21F6 /* LoginView.swift */; };
+		5EB657C12806F103006C21F6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657C02806F103006C21F6 /* UserData.swift */; };
+		5EB657C22806F103006C21F6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657C02806F103006C21F6 /* UserData.swift */; };
+		5EB657C32806F103006C21F6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657C02806F103006C21F6 /* UserData.swift */; };
+		5EB657C52806F3BC006C21F6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657C42806F3BC006C21F6 /* ProfileViewModel.swift */; };
+		5EB657C62806F3BC006C21F6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657C42806F3BC006C21F6 /* ProfileViewModel.swift */; };
+		5EB657C72806F3BC006C21F6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB657C42806F3BC006C21F6 /* ProfileViewModel.swift */; };
 		E7B22402C221BCC123FB6EF4 /* Pods_EventTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDCE8C95F49B9419418B9 /* Pods_EventTracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -175,6 +205,16 @@
 		5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileProtocols.swift; sourceTree = "<group>"; };
 		5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContainer.swift; sourceTree = "<group>"; };
+		5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EB657A42806F07F006C21F6 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		5EB657A52806F07F006C21F6 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		5EB657A62806F07F006C21F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EB657A72806F07F006C21F6 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		5EB657A82806F07F006C21F6 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		5EB657A92806F07F006C21F6 /* LoginContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContainer.swift; sourceTree = "<group>"; };
+		5EB657BC2806F0E1006C21F6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5EB657C02806F103006C21F6 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		5EB657C42806F3BC006C21F6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		63A61CBD918D051A001BA066 /* Pods-EventTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-EventTrackerTests/Pods-EventTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		84C4AFCD28996FAFA6E1A4F2 /* Pods-EventTracker-EventTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTracker-EventTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-EventTracker-EventTrackerUITests/Pods-EventTracker-EventTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		953F2A32B4EEA73A73CCE08A /* Pods-EventTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTracker.debug.xcconfig"; path = "Target Support Files/Pods-EventTracker/Pods-EventTracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -267,6 +307,7 @@
 				5E89F9B327E63F3300BF6F1F /* ProfileProtocols.swift */,
 				5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */,
 				5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */,
+				5EB657C42806F3BC006C21F6 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -304,6 +345,8 @@
 		5E89F94B27E63E0C00BF6F1F = {
 			isa = PBXGroup;
 			children = (
+				5EB657A32806F05C006C21F6 /* Login */,
+				5EB6579F2806ED88006C21F6 /* GoogleService-Info.plist */,
 				5E31460228033C5800485ADC /* AlertManager.swift */,
 				5E3D9FE72801F68600BD9322 /* CustomButtonBuilder.swift */,
 				5E3D9FE62801E88300BD9322 /* Profile */,
@@ -405,6 +448,21 @@
 				5E89F9A827E63F1C00BF6F1F /* MapContainer.swift */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		5EB657A32806F05C006C21F6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5EB657A42806F07F006C21F6 /* LoginPresenter.swift */,
+				5EB657A52806F07F006C21F6 /* LoginRouter.swift */,
+				5EB657A62806F07F006C21F6 /* LoginViewController.swift */,
+				5EB657A72806F07F006C21F6 /* LoginProtocols.swift */,
+				5EB657A82806F07F006C21F6 /* LoginInteractor.swift */,
+				5EB657A92806F07F006C21F6 /* LoginContainer.swift */,
+				5EB657BC2806F0E1006C21F6 /* LoginView.swift */,
+				5EB657C02806F103006C21F6 /* UserData.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		666FF38696AADFD8F869F1F7 /* Frameworks */ = {
@@ -540,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E89F96427E63E1000BF6F1F /* LaunchScreen.storyboard in Resources */,
+				5EB657A02806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 				5E89F96127E63E1000BF6F1F /* Assets.xcassets in Resources */,
 				5E89F95F27E63E0C00BF6F1F /* Main.storyboard in Resources */,
 			);
@@ -549,6 +608,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB657A12806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +616,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB657A22806ED88006C21F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,26 +733,33 @@
 				5E3DA00028020AC300BD9322 /* CategoriesFilterViewController.swift in Sources */,
 				5E89F9B627E63F3300BF6F1F /* ProfilePresenter.swift in Sources */,
 				5E3146232803551F00485ADC /* CitiesFilterRouterInputMock.swift in Sources */,
+				5EB657BD2806F0E1006C21F6 /* LoginView.swift in Sources */,
 				5E89F99C27E63F0C00BF6F1F /* FavoritesPresenter.swift in Sources */,
 				5E31460128033B8700485ADC /* PosterViewModelManager.swift in Sources */,
+				5EB657B62806F07F006C21F6 /* LoginInteractor.swift in Sources */,
 				5E89F99127E63EEE00BF6F1F /* PosterProtocols.swift in Sources */,
 				5E3D9FF42801FA0300BD9322 /* CitiesFilterInteractor.swift in Sources */,
 				5E89F9A027E63F0C00BF6F1F /* FavoritesInteractor.swift in Sources */,
+				5EB657AD2806F07F006C21F6 /* LoginRouter.swift in Sources */,
 				5E89F9B927E63F3300BF6F1F /* ProfileProtocols.swift in Sources */,
 				5E89F9AD27E63F1C00BF6F1F /* MapInteractor.swift in Sources */,
 				5E3D9FE82801F68600BD9322 /* CustomButtonBuilder.swift in Sources */,
 				5E3D9FF72801FA6700BD9322 /* CitiesFilterCell.swift in Sources */,
 				5E3145FD28033B5200485ADC /* PosterViewModel.swift in Sources */,
 				5E89F9A927E63F1C00BF6F1F /* MapPresenter.swift in Sources */,
+				5EB657B02806F07F006C21F6 /* LoginViewController.swift in Sources */,
 				5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */,
 				5E3DA00128020AC300BD9322 /* CategoriesFilterProtocols.swift in Sources */,
+				5EB657B92806F07F006C21F6 /* LoginContainer.swift in Sources */,
 				5E3146172803547100485ADC /* FilterRouterInputMock.swift in Sources */,
 				5E31460528033C9900485ADC /* EntertaimentTableViewCell.swift in Sources */,
 				5E3145FE28033B5200485ADC /* PosterManager.swift in Sources */,
 				5E89F9B827E63F3300BF6F1F /* ProfileViewController.swift in Sources */,
 				5E89F9BB27E63F3300BF6F1F /* ProfileContainer.swift in Sources */,
+				5EB657C52806F3BC006C21F6 /* ProfileViewModel.swift in Sources */,
 				5E3D9FF52801FA0300BD9322 /* CitiesFilterContainer.swift in Sources */,
 				5E3D9FFE28020AC300BD9322 /* CategoriesFilterPresenter.swift in Sources */,
+				5EB657B32806F07F006C21F6 /* LoginProtocols.swift in Sources */,
 				5E3146222803551F00485ADC /* CitiesFilterInteractorInputMock.swift in Sources */,
 				5E3D9FDA2801E3B100BD9322 /* FilterRouter.swift in Sources */,
 				5E89F9AA27E63F1C00BF6F1F /* MapRouter.swift in Sources */,
@@ -703,6 +771,7 @@
 				5E89F98E27E63EEE00BF6F1F /* PosterPresenter.swift in Sources */,
 				5E89F99327E63EEE00BF6F1F /* PosterContainer.swift in Sources */,
 				5E3DA00328020AC300BD9322 /* CategoriesFilterContainer.swift in Sources */,
+				5EB657AA2806F07F006C21F6 /* LoginPresenter.swift in Sources */,
 				5E3D9FDD2801E3B100BD9322 /* FilterInteractor.swift in Sources */,
 				5E3145FF28033B5200485ADC /* PosterServiceModel.swift in Sources */,
 				5E3D9FF32801FA0300BD9322 /* CitiesFilterProtocols.swift in Sources */,
@@ -728,6 +797,7 @@
 				5E3D9FF22801FA0300BD9322 /* CitiesFilterViewController.swift in Sources */,
 				5E89F99E27E63F0C00BF6F1F /* FavoritesViewController.swift in Sources */,
 				5E3D9FE12801E47500BD9322 /* FilterTableViewCell.swift in Sources */,
+				5EB657C12806F103006C21F6 /* UserData.swift in Sources */,
 				5E3D9FFF28020AC300BD9322 /* CategoriesFilterRouter.swift in Sources */,
 				5E3D9FD92801E3B100BD9322 /* FilterPresenter.swift in Sources */,
 				5E3DA00228020AC300BD9322 /* CategoriesFilterInteractor.swift in Sources */,
@@ -740,7 +810,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB657B12806F07F006C21F6 /* LoginViewController.swift in Sources */,
+				5EB657B42806F07F006C21F6 /* LoginProtocols.swift in Sources */,
+				5EB657B72806F07F006C21F6 /* LoginInteractor.swift in Sources */,
+				5EB657C22806F103006C21F6 /* UserData.swift in Sources */,
+				5EB657C62806F3BC006C21F6 /* ProfileViewModel.swift in Sources */,
+				5EB657AB2806F07F006C21F6 /* LoginPresenter.swift in Sources */,
 				5E89F96F27E63E1000BF6F1F /* EventTrackerTests.swift in Sources */,
+				5EB657BA2806F07F006C21F6 /* LoginContainer.swift in Sources */,
+				5EB657BE2806F0E1006C21F6 /* LoginView.swift in Sources */,
+				5EB657AE2806F07F006C21F6 /* LoginRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,7 +827,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB657AC2806F07F006C21F6 /* LoginPresenter.swift in Sources */,
 				5E89F97B27E63E1000BF6F1F /* EventTrackerUITestsLaunchTests.swift in Sources */,
+				5EB657B82806F07F006C21F6 /* LoginInteractor.swift in Sources */,
+				5EB657BF2806F0E1006C21F6 /* LoginView.swift in Sources */,
+				5EB657BB2806F07F006C21F6 /* LoginContainer.swift in Sources */,
+				5EB657AF2806F07F006C21F6 /* LoginRouter.swift in Sources */,
+				5EB657B52806F07F006C21F6 /* LoginProtocols.swift in Sources */,
+				5EB657C72806F3BC006C21F6 /* ProfileViewModel.swift in Sources */,
+				5EB657B22806F07F006C21F6 /* LoginViewController.swift in Sources */,
+				5EB657C32806F103006C21F6 /* UserData.swift in Sources */,
 				5E89F97927E63E1000BF6F1F /* EventTrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

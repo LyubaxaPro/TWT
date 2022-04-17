@@ -25,7 +25,9 @@ protocol ProfileInteractorInput: AnyObject {
 }
 
 protocol ProfileInteractorOutput: AnyObject {
+    func showLogin()
 }
 
 protocol ProfileRouterInput: AnyObject {
+    func showLoginView(output: ProfilePresenter)
 }

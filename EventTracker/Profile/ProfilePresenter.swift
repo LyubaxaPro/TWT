@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Firebase
 
 final class ProfilePresenter {
 	weak var view: ProfileViewInput?
@@ -25,7 +26,26 @@ extension ProfilePresenter: ProfileModuleInput {
 }
 
 extension ProfilePresenter: ProfileViewOutput {
+    func didLoadView() {
+        Auth.auth().addStateDidChangeListener {[weak self] (auth, user)  in
+            if user == nil {
+                guard let self = self else {
+                    return
+                }
+            self.router.showLoginView(output: self)
+            } else{
+//                self?.interactor.getUserInfo()
+            }
+        }
+    }
 }
 
 extension ProfilePresenter: ProfileInteractorOutput {
+    func showLogin() {
+ //       moduleOutput?.update()
+        router.showLoginView(output: self)
+    }
+}
+
+extension ProfilePresenter: LoginModuleOutput {
 }
