@@ -46,6 +46,7 @@
 		5E3DA00228020AC300BD9322 /* CategoriesFilterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FFC28020AC300BD9322 /* CategoriesFilterInteractor.swift */; };
 		5E3DA00328020AC300BD9322 /* CategoriesFilterContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3D9FFD28020AC300BD9322 /* CategoriesFilterContainer.swift */; };
 		5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DA00528020B2900BD9322 /* CategoriesFilterCell.swift */; };
+		5E5199DD280C7CFD00A2298B /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5199DC280C7CFD00A2298B /* UserProfileManager.swift */; };
 		5E89F95827E63E0C00BF6F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */; };
 		5E89F95A27E63E0C00BF6F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */; };
 		5E89F95C27E63E0C00BF6F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89F95B27E63E0C00BF6F1F /* ViewController.swift */; };
@@ -168,6 +169,7 @@
 		5E3D9FFC28020AC300BD9322 /* CategoriesFilterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterInteractor.swift; sourceTree = "<group>"; };
 		5E3D9FFD28020AC300BD9322 /* CategoriesFilterContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterContainer.swift; sourceTree = "<group>"; };
 		5E3DA00528020B2900BD9322 /* CategoriesFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesFilterCell.swift; sourceTree = "<group>"; };
+		5E5199DC280C7CFD00A2298B /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
 		5E89F95427E63E0C00BF6F1F /* EventTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E89F95727E63E0C00BF6F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E89F95927E63E0C00BF6F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 				5E89F9B427E63F3300BF6F1F /* ProfileInteractor.swift */,
 				5E89F9B527E63F3300BF6F1F /* ProfileContainer.swift */,
 				5EB657C42806F3BC006C21F6 /* ProfileViewModel.swift */,
+				5E5199DC280C7CFD00A2298B /* UserProfileManager.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -784,6 +787,7 @@
 				5E3146162803547100485ADC /* FilterInteractorInputMock.swift in Sources */,
 				5E89F99F27E63F0C00BF6F1F /* FavoritesProtocols.swift in Sources */,
 				5E89F95827E63E0C00BF6F1F /* AppDelegate.swift in Sources */,
+				5E5199DD280C7CFD00A2298B /* UserProfileManager.swift in Sources */,
 				5E89F95A27E63E0C00BF6F1F /* SceneDelegate.swift in Sources */,
 				5E3D9FDC2801E3B100BD9322 /* FilterProtocols.swift in Sources */,
 				5E3D9FE32801E49300BD9322 /* FilterInfo.swift in Sources */,

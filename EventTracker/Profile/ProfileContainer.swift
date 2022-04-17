@@ -23,6 +23,8 @@ final class ProfileContainer {
         presenter.moduleOutput = context.moduleOutput
 
         interactor.output = presenter
+        router.sourceTabBarController = context.tabBar
+        router.sourceViewController = viewController
 
         return ProfileContainer(view: viewController, input: presenter, router: router)
     }

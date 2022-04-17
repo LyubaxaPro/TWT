@@ -21,4 +21,8 @@ extension ProfileRouter: ProfileRouterInput {
         navigationController.modalPresentationStyle = .fullScreen
         sourceViewController?.present(navigationController, animated: true, completion: nil)
     }
+
+    func showAlertErrorMessage(with message: String) {
+        sourceViewController?.present(AlertManager.getAlert(description: message), animated: true, completion: nil)
+    }
 }
