@@ -21,8 +21,23 @@ extension PosterInteractor: PosterInteractorInput {
     }
     
     func isInFavorites(poster: PosterViewModel) {
+        DetailManager.shared.isInFavorites(id: poster.id) { [weak self] (flag) in
+            if flag {
+                self?.output?.isInFavorites(poster: poster)
+            } else {
+                self?.output?.notInFavorites(poster: poster)
+            }
+        }
     }
     
     func getCityService() {
+        UserProfileManager.shared.getCityService { [weak self] result in
+            switch(result) {
+            case .success(let cityService):
+                self?.output?.setCityService(cityService: cityService)
+            case .failure(let error):
+                self?.output?.didReceive(error: error)
+            }
+        }
     }
 }
