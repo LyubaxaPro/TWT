@@ -27,8 +27,8 @@ jobs:
         - name: Generate Documentation
           uses: SwiftDocOrg/swift-doc@master
           with:
-            inputs: "EventTracker/"
-            module-name: EventTracker
+            inputs: "EventTracker/Login/"
+            module-name: Login
             output: "Documentation"
         - name: Upload Documentation to Wiki
           uses: SwiftDocOrg/github-wiki-publish-action@v1
