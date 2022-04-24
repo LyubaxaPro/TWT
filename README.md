@@ -2,6 +2,8 @@
 
 Проект по технологии командной разработки. Приложение для поиска событий в некоторых городах России. Работает на платформе iOS, версия iOS 13+. Данные о событиях берутся из API KudaGo https://docs.kudago.com/api/.
 
+[Документация к проекту](https://lyubaxapro.github.io/TWT/EventTracker/EventTracker_Docs/index.html)
+
 # Использование шаблона VIPER.xctemplate
 
 Для использования шаблона необходимо:
