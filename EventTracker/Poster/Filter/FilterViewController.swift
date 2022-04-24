@@ -12,9 +12,12 @@ import PinLayout
 final class FilterViewController: UIViewController {
     private let output: FilterViewOutput
     private let tableView = UITableView(frame: .zero, style: UITableView.Style.grouped)
+    /// Возможные опции
     private let filterArray: [String] = ["Изменить город", "Категории"]
+    /// Кнопка применнеия фильтров
     private let acceptButton = CustomButtonBuilder().getCustomButton(title: "Применить")
 
+    /// Инициализация
     init(output: FilterViewOutput) {
         self.output = output
 
@@ -26,6 +29,7 @@ final class FilterViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
+    /// Составление элементов экрана
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Фильтры"
@@ -42,6 +46,7 @@ final class FilterViewController: UIViewController {
         acceptButton.addTarget(self, action: #selector(didTapAcceptButton), for: .touchUpInside)
     }
 
+    /// Отрисовка элементов экрана
     override func viewDidLayoutSubviews() {
         tableView.pin
             .top()
@@ -56,17 +61,21 @@ final class FilterViewController: UIViewController {
 
     }
 
+    /// Обработка нажатия на кнопку применения фильтров
     @objc
     private func didTapAcceptButton() {
         output.didTapAcceptButton()
     }
 }
 
+/// Работа с таблицей
 extension FilterViewController: UITableViewDelegate, UITableViewDataSource {
+    /// Количество секций в таблице
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return filterArray.count
     }
 
+    /// Стиль ячейки для строки фильтра города
     private func getCitiesCell(indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCellWithLabel", for: indexPath) as?
                 TableViewCellWithLabel else {
@@ -78,6 +87,7 @@ extension FilterViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
 
+    /// Стиль ячейки для строки фильтра категорий
     private func getCategoriesCell(indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCellWithLabel", for: indexPath) as?
                 TableViewCellWithLabel else {
@@ -89,6 +99,7 @@ extension FilterViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
 
+    /// Таблица
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         if indexPath.row == 0 {
@@ -102,12 +113,15 @@ extension FilterViewController: UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
 
+    /// Обработка нажатия на строку таблицы
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         output.didTapCell(with: filterArray[indexPath.row])
     }
 }
 
+/// Получение данных от упраляющего класса
 extension FilterViewController: FilterViewInput {
+    /// Обновить таблицу
     func update() {
         tableView.reloadData()
     }

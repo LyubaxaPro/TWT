@@ -8,14 +8,22 @@
 import UIKit
 import Kingfisher
 
+///Ячейка таблицы афиши
 class EntertaimentTableViewCell: UITableViewCell {
+    /// Тип события
     private let typeLabel = UILabel()
+    /// Заголовок
     private let titleLabel = UILabel()
+    /// Изображение события
     private let iconImageView = UIImageView()
+    /// Цена
     private let costLabel = UILabel()
+    /// Контейнер для сбора вью
     private let containerView = UIView()
+    /// Возрастное ограничение
     private let age_restriction = UILabel()
 
+    /// Инициализация
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
@@ -26,12 +34,14 @@ class EntertaimentTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
+    /// Возможность повторного использования с обновлением контента
     override func prepareForReuse() {
         super.prepareForReuse()
         iconImageView.image = nil
         iconImageView.kf.cancelDownloadTask()
     }
 
+    /// Установка параметров
     private func setup() {
 
         titleLabel.font = .systemFont(ofSize: 17, weight: .medium)
@@ -55,6 +65,7 @@ class EntertaimentTableViewCell: UITableViewCell {
         contentView.addSubview(containerView)
     }
 
+    /// Отрисовка на экране
     override func layoutSubviews() {
         super.layoutSubviews()
         containerView.pin
@@ -90,6 +101,7 @@ class EntertaimentTableViewCell: UITableViewCell {
 
     }
 
+    /// Конфигурация значений элементов 
     func configure(with model: PosterViewModel) {
         titleLabel.text = model.short_title
         if titleLabel.text == "" {

@@ -7,6 +7,7 @@
 //
 import UIKit
 
+/// Конструктор модуля работы с экраном  авторизации
 final class LoginContainer {
     let input: LoginModuleInput
     let viewController: UIViewController

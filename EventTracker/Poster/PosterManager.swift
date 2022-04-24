@@ -8,12 +8,14 @@ protocol PostersManagerDescription: AnyObject {
     func load(posters: PosterServiceInfo, completion: @escaping (Result<[PosterResults], Error>) -> Void)
 }
 
+/// Работа с данными из сети для модуля экрана афиши
 final class PostersManager: PostersManagerDescription {
     
     static let shared: PostersManagerDescription = PostersManager()
     
     private init() {}
-    
+
+    /// Загрузка данных из API для модуля экрана афиши
     func load(posters: PosterServiceInfo, completion: @escaping (Result<[PosterResults], Error>) -> Void) {
         let loader = PosterServiceLoader(posters: posters)
         let urlString = loader.posterUrl()

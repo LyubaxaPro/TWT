@@ -1,12 +1,15 @@
 import Foundation
 
+/// Работа с базой данных для модуля экрана афиши
 final class PosterInteractor {
+    /// Вывод данных из модуля
 	weak var output: PosterInteractorOutput?
-    
     private let postersManager: PostersManagerDescription = PostersManager.shared
 }
 
+/// Отдать данные управляющему классу модуля (presenter)
 extension PosterInteractor: PosterInteractorInput {
+    /// Загрузить новые события
     func load(posters: PosterServiceInfo) {
         postersManager.load(posters: posters) { [weak self] (result) in
             DispatchQueue.main.async {
@@ -19,7 +22,8 @@ extension PosterInteractor: PosterInteractorInput {
             }
         }
     }
-    
+
+    /// Проверить находится изображение в избранных или нет
     func isInFavorites(poster: PosterViewModel) {
         DetailManager.shared.isInFavorites(id: poster.id) { [weak self] (flag) in
             if flag {
@@ -29,7 +33,8 @@ extension PosterInteractor: PosterInteractorInput {
             }
         }
     }
-    
+
+    /// Получить информацию о городе
     func getCityService() {
         UserProfileManager.shared.getCityService { [weak self] result in
             switch(result) {

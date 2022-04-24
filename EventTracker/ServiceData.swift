@@ -7,23 +7,32 @@
 
 import Foundation
 
+/// Координаты
 struct Coordinates {
+    /// Широта
     var latitude: Double
+    /// Долгота
     var longitude: Double
 }
 
+/// Данные о городе и категориях для составления URL
 protocol ServiceDataDescription: AnyObject {
+    /// Доступные города (человекочитабельное название города - служебное название в формате API)
     func getCities() -> [String: String]
+    /// Доступные категории (человекочитабельное название города - служебное название в формате API)
     func getCategories() -> [String: String]
+    /// Координаты городов
     func getCoordinates(city: String) -> Coordinates
 }
 
 final class ServiceData: ServiceDataDescription {
 
+    /// Доступные города
     private var defaultCitiesDict: [String: String] =
     ["Екатеринбург": "ekb", "Красноярск": "krasnoyarsk", "Краснодар": "krd", "Москва": "msk",
      "Нижний Новгород": "nnv", "Новосибирск": "nsk", "Сочи": "sochi", "Санкт-Петербург": "spb"]
 
+    /// Доступные координаты городов
     private var citiesCoordinates: [String: Coordinates] = [
         "ekb": Coordinates(latitude: 56.749993, longitude: 60.519708),
         "krasnoyarsk": Coordinates(latitude: 56.0184, longitude: 92.8672),
@@ -34,6 +43,7 @@ final class ServiceData: ServiceDataDescription {
         "sochi": Coordinates(latitude: 43.5992, longitude: 39.7257),
         "spb": Coordinates(latitude: 59.9386, longitude: 30.3141)]
 
+    /// Доступные категории
     private var categoriesDict: [String: String] = [
         "События для бизнеса": "business-events",
         "Кино": "cinema",
@@ -56,17 +66,21 @@ final class ServiceData: ServiceDataDescription {
         "Экскурсии": "tour",
         "Ярмарки": "yarmarki-razvlecheniya-yarmarki"]
 
+    /// Переменная для работы с singletone
     static let shared: ServiceDataDescription = ServiceData()
     init() {}
 
+    /// Получить значение города по умолчанию
     func getCities() -> [String: String] {
         return defaultCitiesDict
     }
 
+    /// Получить значение категорий по умолчанию
     func getCategories() -> [String: String] {
         return categoriesDict
     }
 
+    /// Получить координаты
     func getCoordinates(city: String) -> Coordinates {
         return citiesCoordinates[city] ?? Coordinates(latitude: 55.7522, longitude: 37.6156)
     }

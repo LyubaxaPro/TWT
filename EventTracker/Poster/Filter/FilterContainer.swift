@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Конструктор модуля работы с экраном афиши
 final class FilterContainer {
     let input: FilterModuleInput
     let viewController: UIViewController

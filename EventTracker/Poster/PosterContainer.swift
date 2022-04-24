@@ -1,5 +1,6 @@
 import UIKit
 
+/// Конструктор модуля работы с экраном афиши
 final class PosterContainer {
     let viewController: UIViewController
     let presenter: PosterPresenter

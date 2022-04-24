@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/// Конструктор модуля работы с экраном фильтра по категориям
 final class CategoriesFilterContainer {
     let input: CategoriesFilterModuleInput
     let viewController: UIViewController

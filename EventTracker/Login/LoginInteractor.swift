@@ -8,12 +8,15 @@
 
 import Foundation
 import Firebase
-
+/// Работа с базой данных в модуле экрана авторизации
 final class LoginInteractor {
+    /// Вывод данных из базы
     weak var output: LoginInteractorOutput?
 }
 
+/// Получение комманд от управляющего класса
 extension LoginInteractor: LoginInteractorInput {
+    /// Запросить восстановление пароля по почте
     func resetPassword(email: String) {
         Auth.auth().sendPasswordReset(withEmail: email){ (error) in
             if error != nil {
@@ -26,6 +29,7 @@ extension LoginInteractor: LoginInteractorInput {
         }
     }
 
+    /// Запросить логин пользователя
     func login(login: String, password: String) {
         Auth.auth().signIn(withEmail: login, password: password) {(result, error) in
 
@@ -55,6 +59,7 @@ extension LoginInteractor: LoginInteractorInput {
         }
     }
 
+    /// Запросить создание пользователя
     func createUser(userData: UserData) {
         Auth.auth().createUser(withEmail: userData.email, password: userData.password) {[weak self] (authResult, error) in
 

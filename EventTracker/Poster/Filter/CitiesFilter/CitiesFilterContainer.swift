@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/// Конструктор модуля работы с экраном фильтра по городу
 final class CitiesFilterContainer {
     let input: CitiesFilterModuleInput
     let viewController: UIViewController

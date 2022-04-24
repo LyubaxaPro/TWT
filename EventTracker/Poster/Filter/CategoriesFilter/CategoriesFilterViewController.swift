@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+/// Контроллер модуля экрана фильтров по категориям
 final class CategoriesFilterViewController: UIViewController {
     private let output: CategoriesFilterViewOutput
+    /// Таблица
     let tableView = UITableView()
 
+    /// Инициализация
     init(output: CategoriesFilterViewOutput) {
         self.output = output
 
@@ -23,6 +25,7 @@ final class CategoriesFilterViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
+    /// Установка параметров элементов
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Категории"
@@ -35,17 +38,21 @@ final class CategoriesFilterViewController: UIViewController {
         tableView.separatorStyle = .none
     }
 
+    /// Размещение элементов на экране
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         tableView.pin.all()
     }
 }
 
+/// Работа с таблицей
 extension CategoriesFilterViewController: UITableViewDelegate, UITableViewDataSource {
+    /// Количество секций
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return output.categories.count
     }
 
+    /// Установка ячейки для таблицы
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "CategoriesFilterCell", for: indexPath) as? CategoriesFilterCell else {
             return .init()
@@ -58,18 +65,23 @@ extension CategoriesFilterViewController: UITableViewDelegate, UITableViewDataSo
     }
 }
 
+/// Получение информации от взаимодействия пользователя с ячейкой
 extension CategoriesFilterViewController: CategoriesFilterCellOutput {
+    /// Выбрана новая категория
     func didСhooseCheckmark(with category: String) {
         output.didСhooseCheckmark(with: category)
     }
 
+    /// Отменен выбор категории
     func didСanceledCheckmark(with category: String) {
         output.didСanceledCheckmark(with: category)
     }
 
 }
 
+/// Получение информации от упраляющего класса
 extension CategoriesFilterViewController: CategoriesFilterViewInput {
+    /// Обновить таблицу
     func reloadTable() {
         tableView.reloadData()
     }

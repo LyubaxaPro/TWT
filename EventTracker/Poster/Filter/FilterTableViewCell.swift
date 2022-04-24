@@ -7,10 +7,14 @@
 
 import UIKit
 
+/// Ячейка таблицы фильтра по городам и категориям
 class TableViewCellWithLabel: UITableViewCell {
+    /// Заголовок
     private let titleLabel = UILabel()
+    /// Описание
     private let extraLabel = UILabel()
 
+    /// Инициализация
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
@@ -21,6 +25,8 @@ class TableViewCellWithLabel: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
+
+    /// Настройка параметров элементов
     private func setup() {
 
         titleLabel.font = .systemFont(ofSize: 17, weight: .medium)
@@ -31,6 +37,7 @@ class TableViewCellWithLabel: UITableViewCell {
         contentView.addSubview(extraLabel)
     }
 
+    /// Отрисовка элементов на экране
     override func layoutSubviews() {
         super.layoutSubviews()
 
@@ -47,6 +54,7 @@ class TableViewCellWithLabel: UITableViewCell {
             .sizeToFit()
     }
 
+    /// конфигурация элементов
     func configure(with title: String, extra: String) {
         titleLabel.text = title
         extraLabel.text = extra

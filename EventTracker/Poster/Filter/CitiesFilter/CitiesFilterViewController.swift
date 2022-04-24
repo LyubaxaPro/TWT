@@ -8,10 +8,13 @@
 
 import UIKit
 
+/// Контроллер экрана фильтра городов
 final class CitiesFilterViewController: UIViewController {
     private let output: CitiesFilterViewOutput
+    /// Таблица
     let tableView = UITableView()
 
+    /// Инициализация
     init(output: CitiesFilterViewOutput) {
         self.output = output
 
@@ -23,6 +26,7 @@ final class CitiesFilterViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
+    /// Выставление параметров элементов
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Города"
@@ -36,17 +40,21 @@ final class CitiesFilterViewController: UIViewController {
         tableView.separatorStyle = .none
     }
 
+    /// Размещение на экране
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         tableView.pin.all()
     }
 }
 
+/// Работа с таблицей
 extension CitiesFilterViewController: UITableViewDelegate, UITableViewDataSource {
+    /// Установить количество секций таблицы
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         output.defaultCities.count
     }
 
+    /// Установить стиль ячеек для таблицы
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "CitiesFilterCell", for: indexPath) as? CitiesFilterCell
         else {
@@ -63,12 +71,15 @@ extension CitiesFilterViewController: UITableViewDelegate, UITableViewDataSource
         return cell
     }
 
+    /// Обработка нажатия на строку таблицы
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         output.didChangeCity(city: output.defaultCities[indexPath.row])
     }
 }
 
+/// Получение информации от управляюшего класса
 extension CitiesFilterViewController: CitiesFilterViewInput {
+    /// Обновить таблицу
     func reloadTable() {
         self.tableView.reloadData()
     }

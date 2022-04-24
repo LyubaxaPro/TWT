@@ -6,8 +6,9 @@
 //
 
 import UIKit
-
+/// Создание кастомной кнопки, используемой во всем приложении
 final class CustomButtonBuilder {
+    /// Создать и получить кнопку с заданным текстом
     func getCustomButton(title: String) -> UIButton {
         let button = UIButton(frame: CGRect(x: 0,
                                             y: 0,

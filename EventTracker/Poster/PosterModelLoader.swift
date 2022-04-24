@@ -1,8 +1,11 @@
 import Foundation
 
+/// Составление правильного URL  для работы с API
 struct PosterServiceLoader{
+    /// Данные для составления URL
     private var posters: PosterServiceInfo
-    
+
+    /// Правильный URL
     private var urlString: String {
         let locations = posters.location
         
@@ -22,18 +25,22 @@ struct PosterServiceLoader{
         //print(urlString)
         return urlString;
     }
-    
+
+    /// Инициализация класса
     init(posters: PosterServiceInfo){
         self.posters = posters
     }
-    
+
+    /// Отдает URL для использования вне класса
     func posterUrl() -> String {
         return urlString
     }
 }
     
-
+/// Данные для составления URL
 struct PosterServiceInfo {
+    /// Город в формате, требуемом в API
     var location: String
+    /// Список категорий в формате, требуемом API
     var category: [String]
 }

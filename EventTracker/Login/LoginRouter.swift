@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+/// Навигация модуля авторизации приложения
 final class LoginRouter {
     weak var sourceTabBarController: UITabBarController?
 }
 
 extension LoginRouter: LoginRouterInput {
+    /// Показать мероприятие
     func showPoster() {
         self.sourceTabBarController?.selectedIndex = 0
     }

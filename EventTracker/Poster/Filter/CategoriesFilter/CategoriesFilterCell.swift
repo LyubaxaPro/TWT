@@ -12,10 +12,14 @@ protocol CategoriesFilterCellOutput: AnyObject {
     func didСanceledCheckmark(with category: String)
 }
 
+/// Ячейка таблицы модуля экрана фильтра по категориям
 final class CategoriesFilterCell: UITableViewCell{
     weak var output: CategoriesFilterCellOutput?
+    /// Заголовок
     private let titleLabel = UILabel()
+    /// Картинка, обозначающая что категория выбрана
     private let checkmark = UIImageView()
+    /// Инициализация
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
@@ -26,6 +30,7 @@ final class CategoriesFilterCell: UITableViewCell{
         fatalError("init(coder:) has not been implemented")
     }
 
+    /// Установка параметров элементов
     private func setup() {
 
         titleLabel.font = .systemFont(ofSize: 17, weight: .medium)
@@ -37,6 +42,7 @@ final class CategoriesFilterCell: UITableViewCell{
         contentView.addSubview(checkmark)
     }
 
+    /// Отрисовка на экране
     override func layoutSubviews() {
         super.layoutSubviews()
 
@@ -51,6 +57,7 @@ final class CategoriesFilterCell: UITableViewCell{
             .right(10)
     }
 
+    /// Установка значений элементов
     func configure(with title: String, isChosen: Bool) {
         titleLabel.text = title
         if isChosen {
@@ -60,6 +67,7 @@ final class CategoriesFilterCell: UITableViewCell{
         }
     }
 
+    /// Обработка нажатия на галочку
     @objc
     private func didTapCheckmark() {
         if checkmark.image == UIImage(systemName: "square") {

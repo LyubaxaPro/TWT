@@ -14,64 +14,84 @@ protocol LoginViewInputDescription: AnyObject {
     func backToLoginView()
 }
 
+/// Отображение экрана авторизации
 class LoginView: UIView {
     private var output: LoginViewOutput?
 
+    /// Логин при регистрации
     private var loginFieldRegister = UITextField()
+    /// Пароль при регистрации
     private var passwordFieldRegister = UITextField()
+    /// Имя при регистрации
     private var nameFieldRegister = UITextField()
+    /// Город при регистрации
     private var cityPicker = UIPickerView()
+    /// Доступные города
     var pickerData: [String] = []
+    /// Выбранный город
     var pickerChoose: String = ""
+    /// Кнопка регистрации
     private var buttonSignUpRegister = UIButton(frame: CGRect(x: 0,
                                         y: 0,
                                         width: 200,
                                         height: 40))
-
+    /// Кнопка назад
     private var buttonBack = UIButton()
 
+    /// Контейнер для отображения
     private let containerViewRegister = UIView()
+    /// Label для отображения ошибки
     private var registerErrorLabel = UILabel()
-
+    /// Поле логина вход
     private var loginField = UITextField()
+    /// Поле пароля вход
     private var passwordField = UITextField()
 
+    /// Кнопка входа в профиль
     var buttonSignIn = UIButton(frame: CGRect(x: 0,
                                         y: 0,
                                         width: 200,
                                         height: 40))
-
+    /// Сообщение об ошибке при входе
     private var signInErrorLabel = UILabel()
 
+    /// Заголовок входа в профиль
     private let signUpTitleLabel = UILabel(frame: CGRect(x: 0,
                                                          y: 0,
                                                          width: 100,
                                                          height: 40))
+    /// Кнопка входа
     let buttonSignUp = UIButton(frame: CGRect(x: 0,
                                         y: 0,
                                         width: 100,
                                         height: 20))
 
+    /// Кнопка выхода
     private let buttonExit = UIButton(frame: CGRect(x: 0,
                                         y: 0,
                                         width: 50,
                                         height: 50))
-
+    /// Контейнер для объединения элементов
     private let containerView = UIView()
-
+    /// Сообщение о возможности восстановления пароля
     private let forgotPasswordLabel = UILabel()
 
+    /// Поле почты для восстановления пароля
     private var emailField = UITextField()
+    /// Кнопка восстановления пароля
     private var resetPasswordButton = UIButton()
+    /// Контейнер для отображения элементов восстановления пароля
     private let containerForgotPassword = UIView()
-
+    /// Кнопка назал восстановления пароля
     private var buttonBackForgotPassword = UIButton()
-
+    /// Иконка пароля входа
     private var passwordIcon = UIImageView()
+    /// Иконка пароля для регистрации
     private var passwordIconRegister = UIImageView()
-
+    /// Ошибка восстановления пароля
     private var resetPasswordError = UILabel()
 
+    /// Инициализация
     init(output: LoginViewOutput) {
         super.init(frame: UIScreen.main.bounds)
         self.output = output
@@ -83,6 +103,7 @@ class LoginView: UIView {
         self.backgroundColor = .white
     }
 
+    /// Создание кастомного поля ввода
     private func getCustomTextField (isPassword: Bool, placeholder: String) -> UITextField {
         let textField =  UITextField(frame: CGRect(x: 0,
                                                     y: 0,
@@ -110,6 +131,7 @@ class LoginView: UIView {
         return textField
     }
 
+    /// Создание кастомной кнопки
     private func getCustomButton(title: String) -> UIButton {
         let button = UIButton(frame: CGRect(x: 0,
                                             y: 0,
@@ -123,6 +145,7 @@ class LoginView: UIView {
         return button
     }
 
+    /// Создание кастомной кнопки назад
     private func getCustomBackButton() -> UIButton {
         let button = UIButton(frame: CGRect(x: 0,
                                             y: 0,
@@ -141,6 +164,7 @@ class LoginView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+    /// Иконка пароля
     private func getPasswordIcon() -> UIImageView {
         let icon = UIImageView()
         icon.image = UIImage(named: "passwordIcon")
@@ -149,6 +173,7 @@ class LoginView: UIView {
         return icon
     }
 
+    /// Сообщение об ошибке
     private func getErrorLabel()-> UILabel {
         let label = UILabel()
         label.font = .systemFont(ofSize: 15, weight: .regular)
@@ -160,6 +185,7 @@ class LoginView: UIView {
         return label
     }
 
+    ///  Установка параметров элементов
     private func setup() {
         containerView.clipsToBounds = true
 
@@ -256,6 +282,7 @@ class LoginView: UIView {
         self.containerForgotPassword.isHidden = true
     }
 
+    /// Размещение на экране
     override func layoutSubviews() {
         super.layoutSubviews()
 
@@ -367,6 +394,7 @@ class LoginView: UIView {
             .margin(20)
     }
 
+    /// Обработка нажатия на кнопку создания аккаунта
     @objc
     func buttonSignUpAction() {
         self.containerView.isHidden = true
@@ -374,6 +402,7 @@ class LoginView: UIView {
         registerErrorLabel.isHidden = true
     }
 
+    /// Обработка нажатия на кнопку регистрации
     @objc
     func buttonSignUpRegisterAction() {
         let login = loginFieldRegister.text ?? ""
@@ -391,6 +420,7 @@ class LoginView: UIView {
         self.output?.didTapCreateUser(email: login, password: password, name: name, city: city)
     }
 
+    /// Обработка нажатия на кнопку входа
     @objc
     func buttonSignInAction() {
         let login = loginField.text ?? ""
@@ -403,11 +433,13 @@ class LoginView: UIView {
         }
     }
 
+    /// Обработка нажатия на кнопку выхода
     @objc
     func buttonExitAction() {
         self.output?.didTapExitAuth()
     }
 
+    /// Обработка нажатия на кнопку назад
     @objc
     func buttonBackAction() {
         self.containerView.isHidden = false
@@ -415,6 +447,7 @@ class LoginView: UIView {
         self.containerViewRegister.isHidden = true
     }
 
+    /// Обработка нажатия на кнопку назад из экрана восстановления пароля
     @objc
     func buttonBackForgotPasswordAction() {
         self.containerView.isHidden = false
@@ -422,6 +455,7 @@ class LoginView: UIView {
         self.containerForgotPassword.isHidden = true
     }
 
+    /// Обработка нажатия на кнопку восстановления пароля
     @objc
     func didTapForgotPassword() {
         self.containerView.isHidden = true
@@ -429,6 +463,7 @@ class LoginView: UIView {
         resetPasswordError.isHidden = true
     }
 
+    /// Обработка нажатия на кнопку сброса пароля
     @objc
     private func didTapResetPassword() {
         let email = emailField.text ?? ""
@@ -440,6 +475,7 @@ class LoginView: UIView {
         }
     }
 
+    /// Обработка нажатия на кнопку нажатия иконки пароля (скрыть / показать пароль)
     @objc
     private func didTapPasswordIcon() {
         passwordField.isSecureTextEntry = !passwordField.isSecureTextEntry
@@ -450,6 +486,7 @@ class LoginView: UIView {
         }
     }
 
+    /// Обработка нажатия на кнопку нажатия иконки пароля (скрыть / показать пароль) при регистрации
     @objc
     private func didTapPasswordIconRegister() {
         passwordFieldRegister.isSecureTextEntry = !passwordFieldRegister.isSecureTextEntry
@@ -461,6 +498,7 @@ class LoginView: UIView {
     }
 }
 
+/// Настройка текстового поля ввода
 extension UITextField {
     func indent(size:CGFloat) {
         self.leftView = UIView(frame: CGRect(x: self.frame.minX, y: self.frame.minY, width: size, height: self.frame.height))
@@ -468,7 +506,9 @@ extension UITextField {
     }
 }
 
+/// Обработка действий пользователя при входе
 extension LoginView: LoginViewInputDescription {
+    /// Показать ошибку
     func showError(description: String) {
         if containerView.isHidden == false {
             signInErrorLabel.isHidden = false
@@ -486,24 +526,30 @@ extension LoginView: LoginViewInputDescription {
         }
     }
 
+    /// Вернуться к экрану авторизации
     func backToLoginView() {
         buttonBackForgotPasswordAction()
     }
 }
 
+/// Работа с пикером данных о городе
 extension LoginView: UIPickerViewDelegate, UIPickerViewDataSource {
+    /// Количество пикеров
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
 
+    /// Количество элементов в пикере
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerData.count
     }
 
+    /// Данные для пикера
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerData[row]
     }
 
+    /// Обработка выбора элемента из пикера
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         pickerChoose = pickerData[row]
     }
