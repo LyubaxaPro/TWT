@@ -2,13 +2,13 @@ import Foundation
 import Firebase
 import FirebaseDatabase
 
-/// Класс, отвечающий за бизнес-логику модуля избранного
+/// Bisness logic of favorites module
 final class FavoritesInteractor {
 	weak var output: FavoritesInteractorOutput?
 }
 
 extension FavoritesInteractor: FavoritesInteractorInput {
-    /// Загружает данные об избранных событиях пользователя
+    /// Load data from favorites events
     func load() {
         var posters: [PosterViewModel] = []
         Auth.auth().addStateDidChangeListener { (auth, user)  in
