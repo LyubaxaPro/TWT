@@ -1,6 +1,7 @@
 import UIKit
 import PinLayout
 
+/// Класс, отвечающий за представление данных на экране избранного
 final class FavoritesViewController: UIViewController {
     private let output: FavoritesViewOutput
     private let tableView = UITableView()
@@ -43,6 +44,7 @@ final class FavoritesViewController: UIViewController {
         output.didLoadView()
     }
     
+    /// Вызывается при обновлении экрана избранного
     @objc
     private func didPullRefresh() {
         output.didPullRefresh()
@@ -76,6 +78,7 @@ extension FavoritesViewController: UITableViewDataSource, UITableViewDelegate {
 
 
 extension FavoritesViewController: FavoritesViewInput {
+    /// Перезагружает экран избранного
     func reloadData() {
         self.tableView.refreshControl?.endRefreshing()
         self.tableView.reloadData()

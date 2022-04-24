@@ -1,5 +1,6 @@
 import Foundation
 
+/// Класс, отвечающий за управление бизнес-логикой и представлением
 final class DetailPresenter {
 	weak var view: DetailViewInput?
     weak var moduleOutput: DetailModuleOutput?
@@ -14,6 +15,7 @@ final class DetailPresenter {
         self.interactor = interactor
     }
     
+    /// Форматирует строку описания
     func description_standartization(description: String) -> String{
         guard let startOfStr = description.firstIndex(of: ">") else { return description }
         let start = description.index(after: startOfStr)

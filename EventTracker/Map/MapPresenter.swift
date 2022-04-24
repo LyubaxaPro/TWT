@@ -10,9 +10,12 @@ import Foundation
 import Firebase
 import MapKit
 
+/// Класс для связи представления и бизнес логики модуля экрана карты
 final class MapPresenter {
 	weak var view: MapViewInput?
     weak var moduleOutput: MapModuleOutput?
+    
+    /// Массив мест для отображения на карте
     private (set) var mapPlaces: [MapPlace] = []
 
 	private let router: MapRouterInput
@@ -31,6 +34,7 @@ extension MapPresenter: MapModuleInput {
 }
 
 extension MapPresenter: MapViewOutput {
+    /// Загружает данные об экране карты
     func didLoad() {
         Auth.auth().addStateDidChangeListener {[weak self] (auth, user)  in
             if user != nil {
@@ -41,6 +45,7 @@ extension MapPresenter: MapViewOutput {
         }
     }
     
+    /// Вызывается при нажатии на карточку на карте, открывает экран с детализированной карточкой
     func didTapCell(poster: PosterViewModel) {
         interactor.isInFavorites(poster: poster)
     }
@@ -48,32 +53,38 @@ extension MapPresenter: MapViewOutput {
 }
 
 extension MapPresenter: MapInteractorOutput {
+    /// Открывает экран с детализированной информацией о событии, находящемся в избранном у пользователя
     func isInFavorites(poster: PosterViewModel) {
         router.showPoster(with: poster, isInFavorites: true, output: self)
     }
     
+    /// Открывает экран с детализированной информацией о событии, не находящемся в избранном у пользователя
     func notInFavorites(poster: PosterViewModel) {
         router.showPoster(with: poster, isInFavorites: false, output: self)
     }
     
+    /// Обновляет геоданные и перезагружает интерфейс в соответствии с новыми данными
     func setCityService(cityService: String) {
         self.cityService = cityService
         self.coordinates = ServiceData.shared.getCoordinates(city: cityService)
         self.view?.reloadData(with: coordinates)
     }
     
+    /// Показывает ошибку на экране карты
     func didReceive(error: Error) {
         router.showAlertErrorMessage(with: "Неожиданная ошибка")
     }
 }
 
 extension MapPresenter: PosterModuleOutput {
+    /// Обновляет геоданные из модуля афиши и перезагружает интерфейс в соответствии с новыми данными
     func setNewCity(cityService: String) {
         self.cityService = cityService
         self.coordinates = ServiceData.shared.getCoordinates(city: cityService)
         self.view?.reloadData(with: coordinates)
     }
     
+    /// Преобразует данные о местах из модуля афиши в геоданные модуля карты и обновляет их, перезагружает интерфейс
     func setNewPosters(posters: [PosterResults]) {
         let mapPlaces = posters.map { place -> MapPlace in
             let poster = PosterViewModelManager.shared.posterResultsToPosterViewModel(poster: place)

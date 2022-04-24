@@ -8,12 +8,14 @@
 
 import UIKit
 
+/// Класс для создания модуля экрана карты
 final class MapContainer {
     let input: MapModuleInput
 	let viewController: UIViewController
     let presenter: MapPresenter
 	private(set) weak var router: MapRouterInput!
 
+    /// По заданному контексту создает модуль экрана карты
 	class func assemble(with context: MapContext) -> MapContainer {
         let router = MapRouter()
         let interactor = MapInteractor()

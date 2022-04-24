@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Класс, отвечающий за управление бизнес-логикой и представлением редактора профиля
 final class ChangeUserProfilePresenter {
     weak var view: ChangeUserProfileViewInput?
     weak var moduleOutput: ChangeUserProfileModuleOutput?
@@ -26,6 +27,7 @@ extension ChangeUserProfilePresenter: ChangeUserProfileModuleInput {
 }
 
 extension ChangeUserProfilePresenter: ChangeUserProfileViewOutput {
+    /// Вызывается при обновлении данных о пользователе, передает управление бизнес-логик
     func didTapChangeUserProfile(newCity: String, newName: String) {
         interactor.changeUserData(userData: UserProfileViewModel(name: newName, city: newCity))
     }
@@ -48,10 +50,12 @@ extension ChangeUserProfilePresenter: ChangeUserProfileViewOutput {
 }
 
 extension ChangeUserProfilePresenter: ChangeUserProfileInteractorOutput {
+    /// Вызывается  в случае ошибки, передает управление классу навигации
     func didReceive(error: String) {
         router.showAlertErrorMessage(with: error)
     }
 
+    /// Вызывается после изменения данных о пользователе
     func didChangeData() {
         moduleOutput?.didChangeCity()
         router.backToProfile()

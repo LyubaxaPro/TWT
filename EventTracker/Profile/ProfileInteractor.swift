@@ -9,11 +9,13 @@
 import Foundation
 import Firebase
 
+/// Класс, отечающий за бизнес-логику экрана профиля
 final class ProfileInteractor {
     weak var output: ProfileInteractorOutput?
 }
 
 extension ProfileInteractor: ProfileInteractorInput {
+    /// Реализует выход из текущего профиля
     func logout() {
         do {
             try Auth.auth().signOut()
@@ -24,6 +26,7 @@ extension ProfileInteractor: ProfileInteractorInput {
         }
     }
 
+    /// Предоставляет данные о пользователе
     func getUserInfo() {
         UserProfileManager.shared.getUserInfo { [weak self] result in
             switch(result) {

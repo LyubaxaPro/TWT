@@ -1,5 +1,6 @@
 import UIKit
 
+/// Класс, отвечающий за создание модуля избранного
 final class FavoritesContainer {
 	let viewController: UIViewController
 
@@ -7,6 +8,7 @@ final class FavoritesContainer {
         self.viewController = view
     }
     
+    /// Создает модуль избранного
 	class func assemble(with: UITabBarController) -> FavoritesContainer {
         let router = FavoritesRouter()
         let interactor = FavoritesInteractor()

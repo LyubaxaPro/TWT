@@ -1,6 +1,7 @@
 import UIKit
 import Kingfisher
 
+/// Класс, отвечающий за представление экрана детализированной информации о событии
 final class DetailViewController: UIViewController {
 	private let output: DetailViewOutput
     
@@ -165,6 +166,7 @@ final class DetailViewController: UIViewController {
         
     }
     
+    /// Вызывается при нажатии на ссылку события
     @objc
     func buttonUrlAction() {
         output.didTapButtonUrl()
@@ -174,6 +176,7 @@ final class DetailViewController: UIViewController {
         return navigationItem.rightBarButtonItem?.image == selectedImg
     }
     
+    /// Вызывается при нажатии на кнопку обновления статуса избранного
     @objc
     func didTapFavorites() {
         if isSelectedToFavorites() {

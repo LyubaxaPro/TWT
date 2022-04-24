@@ -9,11 +9,13 @@
 import UIKit
 import MapKit
 
+/// Класс, отвечающий за отображение данных на экране карты
 final class MapViewController: UIViewController {
     private let output: MapViewOutput
     private var curPlace: String = ""
     private var mapView = MKMapView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
     
+    /// Начальная локация
     let initialLocation = CLLocation(latitude: 55.751244, longitude: 37.618423)
 
 
@@ -40,6 +42,7 @@ final class MapViewController: UIViewController {
 }
 
 extension MapViewController: MapViewInput {
+    /// Обновляет экран карты
     func reloadData(with newLocation: Coordinates) {
         self.mapView.removeAnnotations(self.mapView.annotations)
         self.mapView.addAnnotations(output.mapPlaces)
@@ -48,16 +51,17 @@ extension MapViewController: MapViewInput {
 }
 
 private extension MKMapView {
-  func centerToLocation(
-    _ location: CLLocation,
-    regionRadius: CLLocationDistance = 1000
-  ) {
-    let coordinateRegion = MKCoordinateRegion(
-      center: location.coordinate,
-      latitudinalMeters: regionRadius,
-      longitudinalMeters: regionRadius)
-    setRegion(coordinateRegion, animated: true)
-  }
+    /// Отображает на экране карты переданную локацию
+    func centerToLocation(
+      _ location: CLLocation,
+      regionRadius: CLLocationDistance = 1000
+    ) {
+      let coordinateRegion = MKCoordinateRegion(
+        center: location.coordinate,
+        latitudinalMeters: regionRadius,
+        longitudinalMeters: regionRadius)
+      setRegion(coordinateRegion, animated: true)
+    }
 }
 
 extension MapViewController: MKMapViewDelegate{

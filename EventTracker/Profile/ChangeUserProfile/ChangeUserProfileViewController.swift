@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Класс, отвечающий за представление редактора профиля
 final class ChangeUserProfileViewController: UIViewController {
     private let output: ChangeUserProfileViewOutput
     private var nameField = UITextField()
@@ -99,6 +100,7 @@ final class ChangeUserProfileViewController: UIViewController {
             .hCenter()
     }
 
+    /// Вызывается при нажатии на кнопку сохранения информации о пользователе
     @objc
     private func acceptButtonAction() {
         var newName = nameField.text ?? ""

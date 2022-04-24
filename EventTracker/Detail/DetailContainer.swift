@@ -1,10 +1,12 @@
 import UIKit
 
+/// Класс, отвечающий за создание модуля детализированной информации о событии
 final class DetailContainer {
     let input: DetailModuleInput
 	let viewController: UIViewController
 	private(set) weak var router: DetailRouterInput!
 
+    /// Создает модуль экрана детализированной информации о событии
 	class func assemble(with context: DetailContext) -> DetailContainer {
         let router = DetailRouter()
         let interactor = DetailInteractor()

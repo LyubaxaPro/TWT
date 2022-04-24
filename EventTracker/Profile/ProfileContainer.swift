@@ -8,11 +8,13 @@
 
 import UIKit
 
+/// Класс, отечающий за создание модуля экрана профиля
 final class ProfileContainer {
     let input: ProfileModuleInput
     let viewController: UIViewController
     private(set) weak var router: ProfileRouterInput!
 
+    /// Создает модуль экрана профиля
     class func assemble(with context: ProfileContext) -> ProfileContainer {
         let router = ProfileRouter()
         let interactor = ProfileInteractor()
