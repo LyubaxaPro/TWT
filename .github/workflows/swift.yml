@@ -27,8 +27,8 @@ jobs:
         - name: Generate Documentation
           uses: SwiftDocOrg/swift-doc@master
           with:
-            inputs: "EventTracker/Login/"
-            module-name: Login
+            inputs: "EventTracker/Favorites/FavoritesInteractor.swift"
+            module-name: FavoritesInteractor.swift
             output: "Documentation"
         - name: Upload Documentation to Wiki
           uses: SwiftDocOrg/github-wiki-publish-action@v1
