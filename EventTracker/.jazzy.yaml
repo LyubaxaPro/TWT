@@ -7,10 +7,10 @@ xcodebuild_arguments:
 - -scheme
 - EventTracker
 - CODE_SIGNING_ALLOWED = NO
-author: Kulikov
+author: Куликов Г., Прохорова Л.
 module: EventTracker
 module_version: 1.0
-copyright: Copyright message here
+copyright: Copyright
 readme: README.md
 exclude:
   - Pods/
