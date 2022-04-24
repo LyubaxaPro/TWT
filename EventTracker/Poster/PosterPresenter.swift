@@ -88,3 +88,7 @@ extension PosterPresenter: FilterModuleOutput {
         view?.startRefreshing()
     }
 }
+
+extension PosterPresenter: DetailModuleOutput {
+}
+

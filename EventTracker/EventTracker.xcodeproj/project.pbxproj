@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		25836CAB6432692F061508AA /* Pods_EventTracker_EventTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEBA0AF5F8BE977D84AE0C0 /* Pods_EventTracker_EventTrackerUITests.framework */; };
 		400C1DFD6298E809146CD459 /* Pods_EventTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E113B02ADC5CDBC17555AB /* Pods_EventTrackerTests.framework */; };
+		5E1C7DDC281592A300850BE0 /* MapPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DDB281592A300850BE0 /* MapPlace.swift */; };
+		5E1C7DED281592BB00850BE0 /* DetailSiteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DDF281592BA00850BE0 /* DetailSiteInteractor.swift */; };
+		5E1C7DEE281592BB00850BE0 /* DetailSiteContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE0281592BA00850BE0 /* DetailSiteContainer.swift */; };
+		5E1C7DEF281592BB00850BE0 /* DetailSiteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE1281592BA00850BE0 /* DetailSiteRouter.swift */; };
+		5E1C7DF0281592BB00850BE0 /* DetailSitePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE2281592BA00850BE0 /* DetailSitePresenter.swift */; };
+		5E1C7DF1281592BB00850BE0 /* DetailSiteProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE3281592BA00850BE0 /* DetailSiteProtocols.swift */; };
+		5E1C7DF2281592BB00850BE0 /* DetailSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE4281592BA00850BE0 /* DetailSiteViewController.swift */; };
+		5E1C7DF3281592BB00850BE0 /* DetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE5281592BA00850BE0 /* DetailManager.swift */; };
+		5E1C7DF4281592BB00850BE0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE6281592BA00850BE0 /* DetailViewController.swift */; };
+		5E1C7DF5281592BB00850BE0 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE7281592BA00850BE0 /* DetailPresenter.swift */; };
+		5E1C7DF6281592BB00850BE0 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE8281592BA00850BE0 /* DetailProtocols.swift */; };
+		5E1C7DF7281592BB00850BE0 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DE9281592BA00850BE0 /* DetailInteractor.swift */; };
+		5E1C7DF8281592BB00850BE0 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DEA281592BA00850BE0 /* DetailRouter.swift */; };
+		5E1C7DF9281592BB00850BE0 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DEB281592BA00850BE0 /* DetailViewModel.swift */; };
+		5E1C7DFA281592BB00850BE0 /* DetailContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C7DEC281592BA00850BE0 /* DetailContainer.swift */; };
 		5E3145FC28033B5200485ADC /* PosterModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145F828033B5100485ADC /* PosterModelLoader.swift */; };
 		5E3145FD28033B5200485ADC /* PosterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145F928033B5100485ADC /* PosterViewModel.swift */; };
 		5E3145FE28033B5200485ADC /* PosterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3145FA28033B5100485ADC /* PosterManager.swift */; };
@@ -135,6 +150,21 @@
 
 /* Begin PBXFileReference section */
 		07498AD82BBE2CA10733FB14 /* Pods-EventTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventTracker.release.xcconfig"; path = "Target Support Files/Pods-EventTracker/Pods-EventTracker.release.xcconfig"; sourceTree = "<group>"; };
+		5E1C7DDB281592A300850BE0 /* MapPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPlace.swift; sourceTree = "<group>"; };
+		5E1C7DDF281592BA00850BE0 /* DetailSiteInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSiteInteractor.swift; sourceTree = "<group>"; };
+		5E1C7DE0281592BA00850BE0 /* DetailSiteContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSiteContainer.swift; sourceTree = "<group>"; };
+		5E1C7DE1281592BA00850BE0 /* DetailSiteRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSiteRouter.swift; sourceTree = "<group>"; };
+		5E1C7DE2281592BA00850BE0 /* DetailSitePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSitePresenter.swift; sourceTree = "<group>"; };
+		5E1C7DE3281592BA00850BE0 /* DetailSiteProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSiteProtocols.swift; sourceTree = "<group>"; };
+		5E1C7DE4281592BA00850BE0 /* DetailSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSiteViewController.swift; sourceTree = "<group>"; };
+		5E1C7DE5281592BA00850BE0 /* DetailManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailManager.swift; sourceTree = "<group>"; };
+		5E1C7DE6281592BA00850BE0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5E1C7DE7281592BA00850BE0 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		5E1C7DE8281592BA00850BE0 /* DetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		5E1C7DE9281592BA00850BE0 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		5E1C7DEA281592BA00850BE0 /* DetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		5E1C7DEB281592BA00850BE0 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		5E1C7DEC281592BA00850BE0 /* DetailContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContainer.swift; sourceTree = "<group>"; };
 		5E3145F828033B5100485ADC /* PosterModelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterModelLoader.swift; sourceTree = "<group>"; };
 		5E3145F928033B5100485ADC /* PosterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterViewModel.swift; sourceTree = "<group>"; };
 		5E3145FA28033B5100485ADC /* PosterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterManager.swift; sourceTree = "<group>"; };
@@ -264,6 +294,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E1C7DDD281592BA00850BE0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C7DDE281592BA00850BE0 /* DetailSite */,
+				5E1C7DE5281592BA00850BE0 /* DetailManager.swift */,
+				5E1C7DE6281592BA00850BE0 /* DetailViewController.swift */,
+				5E1C7DE7281592BA00850BE0 /* DetailPresenter.swift */,
+				5E1C7DE8281592BA00850BE0 /* DetailProtocols.swift */,
+				5E1C7DE9281592BA00850BE0 /* DetailInteractor.swift */,
+				5E1C7DEA281592BA00850BE0 /* DetailRouter.swift */,
+				5E1C7DEB281592BA00850BE0 /* DetailViewModel.swift */,
+				5E1C7DEC281592BA00850BE0 /* DetailContainer.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5E1C7DDE281592BA00850BE0 /* DetailSite */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C7DDF281592BA00850BE0 /* DetailSiteInteractor.swift */,
+				5E1C7DE0281592BA00850BE0 /* DetailSiteContainer.swift */,
+				5E1C7DE1281592BA00850BE0 /* DetailSiteRouter.swift */,
+				5E1C7DE2281592BA00850BE0 /* DetailSitePresenter.swift */,
+				5E1C7DE3281592BA00850BE0 /* DetailSiteProtocols.swift */,
+				5E1C7DE4281592BA00850BE0 /* DetailSiteViewController.swift */,
+			);
+			path = DetailSite;
+			sourceTree = "<group>";
+		};
 		5E3146132803547100485ADC /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +430,7 @@
 		5E89F94B27E63E0C00BF6F1F = {
 			isa = PBXGroup;
 			children = (
+				5E1C7DDD281592BA00850BE0 /* Detail */,
 				5E5199F6280C9BB700A2298B /* GoogleService-Info.plist */,
 				5EB657A32806F05C006C21F6 /* Login */,
 				5E31460228033C5800485ADC /* AlertManager.swift */,
@@ -466,6 +526,7 @@
 		5E89F9A227E63F1000BF6F1F /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				5E1C7DDB281592A300850BE0 /* MapPlace.swift */,
 				5E89F9A327E63F1C00BF6F1F /* MapPresenter.swift */,
 				5E89F9A427E63F1C00BF6F1F /* MapRouter.swift */,
 				5E89F9A527E63F1C00BF6F1F /* MapViewController.swift */,
@@ -754,6 +815,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1C7DF2281592BB00850BE0 /* DetailSiteViewController.swift in Sources */,
 				5E3DA00028020AC300BD9322 /* CategoriesFilterViewController.swift in Sources */,
 				5E5199EC280C8F1B00A2298B /* ChangeUserProfilePresenter.swift in Sources */,
 				5E89F9B627E63F3300BF6F1F /* ProfilePresenter.swift in Sources */,
@@ -764,13 +826,16 @@
 				5EB657B62806F07F006C21F6 /* LoginInteractor.swift in Sources */,
 				5E89F99127E63EEE00BF6F1F /* PosterProtocols.swift in Sources */,
 				5E3D9FF42801FA0300BD9322 /* CitiesFilterInteractor.swift in Sources */,
+				5E1C7DEF281592BB00850BE0 /* DetailSiteRouter.swift in Sources */,
 				5E89F9A027E63F0C00BF6F1F /* FavoritesInteractor.swift in Sources */,
 				5EB657AD2806F07F006C21F6 /* LoginRouter.swift in Sources */,
 				5E89F9B927E63F3300BF6F1F /* ProfileProtocols.swift in Sources */,
+				5E1C7DF9281592BB00850BE0 /* DetailViewModel.swift in Sources */,
 				5E89F9AD27E63F1C00BF6F1F /* MapInteractor.swift in Sources */,
 				5E3D9FE82801F68600BD9322 /* CustomButtonBuilder.swift in Sources */,
 				5E3D9FF72801FA6700BD9322 /* CitiesFilterCell.swift in Sources */,
 				5E3145FD28033B5200485ADC /* PosterViewModel.swift in Sources */,
+				5E1C7DF7281592BB00850BE0 /* DetailInteractor.swift in Sources */,
 				5E89F9A927E63F1C00BF6F1F /* MapPresenter.swift in Sources */,
 				5EB657B02806F07F006C21F6 /* LoginViewController.swift in Sources */,
 				5E3DA00628020B2900BD9322 /* CategoriesFilterCell.swift in Sources */,
@@ -789,6 +854,8 @@
 				5E3146222803551F00485ADC /* CitiesFilterInteractorInputMock.swift in Sources */,
 				5E3D9FDA2801E3B100BD9322 /* FilterRouter.swift in Sources */,
 				5E89F9AA27E63F1C00BF6F1F /* MapRouter.swift in Sources */,
+				5E1C7DF4281592BB00850BE0 /* DetailViewController.swift in Sources */,
+				5E1C7DF8281592BB00850BE0 /* DetailRouter.swift in Sources */,
 				5E89F99227E63EEE00BF6F1F /* PosterInteractor.swift in Sources */,
 				5E89F9BA27E63F3300BF6F1F /* ProfileInteractor.swift in Sources */,
 				5E5199F0280C8F1B00A2298B /* ChangeUserProfileInteractor.swift in Sources */,
@@ -796,14 +863,17 @@
 				5E89F95C27E63E0C00BF6F1F /* ViewController.swift in Sources */,
 				5E89F9AE27E63F1C00BF6F1F /* MapContainer.swift in Sources */,
 				5E89F98E27E63EEE00BF6F1F /* PosterPresenter.swift in Sources */,
+				5E1C7DF6281592BB00850BE0 /* DetailProtocols.swift in Sources */,
 				5E89F99327E63EEE00BF6F1F /* PosterContainer.swift in Sources */,
 				5E3DA00328020AC300BD9322 /* CategoriesFilterContainer.swift in Sources */,
+				5E1C7DED281592BB00850BE0 /* DetailSiteInteractor.swift in Sources */,
 				5EB657AA2806F07F006C21F6 /* LoginPresenter.swift in Sources */,
 				5E3D9FDD2801E3B100BD9322 /* FilterInteractor.swift in Sources */,
 				5E3145FF28033B5200485ADC /* PosterServiceModel.swift in Sources */,
 				5E3D9FF32801FA0300BD9322 /* CitiesFilterProtocols.swift in Sources */,
 				5E3D9FF12801FA0300BD9322 /* CitiesFilterRouter.swift in Sources */,
 				5E89F9AC27E63F1C00BF6F1F /* MapProtocols.swift in Sources */,
+				5E1C7DEE281592BB00850BE0 /* DetailSiteContainer.swift in Sources */,
 				5E3146252803569100485ADC /* CategoriesFilterRouterInputMock.swift in Sources */,
 				5E3145FC28033B5200485ADC /* PosterModelLoader.swift in Sources */,
 				5E3D9FF02801FA0300BD9322 /* CitiesFilterPresenter.swift in Sources */,
@@ -818,6 +888,7 @@
 				5E3D9FE32801E49300BD9322 /* FilterInfo.swift in Sources */,
 				5E89F98F27E63EEE00BF6F1F /* PosterRouter.swift in Sources */,
 				5E89F9AB27E63F1C00BF6F1F /* MapViewController.swift in Sources */,
+				5E1C7DF3281592BB00850BE0 /* DetailManager.swift in Sources */,
 				5E3146242803568E00485ADC /* CategoriesFilterInteractorInputMock.swift in Sources */,
 				5E3D9FDB2801E3B100BD9322 /* FilterViewController.swift in Sources */,
 				5E5199ED280C8F1B00A2298B /* ChangeUserProfileRouter.swift in Sources */,
@@ -826,14 +897,19 @@
 				5E89F99D27E63F0C00BF6F1F /* FavoritesRouter.swift in Sources */,
 				5E3D9FF22801FA0300BD9322 /* CitiesFilterViewController.swift in Sources */,
 				5E89F99E27E63F0C00BF6F1F /* FavoritesViewController.swift in Sources */,
+				5E1C7DF1281592BB00850BE0 /* DetailSiteProtocols.swift in Sources */,
 				5E3D9FE12801E47500BD9322 /* FilterTableViewCell.swift in Sources */,
 				5EB657C12806F103006C21F6 /* UserData.swift in Sources */,
+				5E1C7DDC281592A300850BE0 /* MapPlace.swift in Sources */,
+				5E1C7DF0281592BB00850BE0 /* DetailSitePresenter.swift in Sources */,
+				5E1C7DF5281592BB00850BE0 /* DetailPresenter.swift in Sources */,
 				5E3D9FFF28020AC300BD9322 /* CategoriesFilterRouter.swift in Sources */,
 				5E3D9FD92801E3B100BD9322 /* FilterPresenter.swift in Sources */,
 				5E5199EE280C8F1B00A2298B /* ChangeUserProfileViewController.swift in Sources */,
 				5E3DA00228020AC300BD9322 /* CategoriesFilterInteractor.swift in Sources */,
 				5E89F99027E63EEE00BF6F1F /* PosterViewController.swift in Sources */,
 				5E3D9FE52801E4F900BD9322 /* ServiceData.swift in Sources */,
+				5E1C7DFA281592BB00850BE0 /* DetailContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

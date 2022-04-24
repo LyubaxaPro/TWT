@@ -17,7 +17,7 @@ final class DetailManager: DetailManagerDescription {
                 return
             }
 
-            let ref = Database.database(url: "https://leisure-d8615-default-rtdb.firebaseio.com/").reference()
+            let ref = Database.database(url: "https://eventtracker-3500c-default-rtdb.firebaseio.com/").reference()
 
             let groupsRef = ref.child("users/"+user.uid + "/favorites/" + "\(String(describing: id))")
 

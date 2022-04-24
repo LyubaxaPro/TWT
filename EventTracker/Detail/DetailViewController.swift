@@ -17,10 +17,7 @@ final class DetailViewController: UIViewController {
     
     private let selectedImg = UIImage(systemName: "heart.fill")?.withTintColor(.red, renderingMode: .alwaysOriginal)
     private let defaultImg = UIImage(systemName: "heart")
-    let buttonUrl = UIButton(frame: CGRect(x: 100,
-                                        y: 100,
-                                        width: 200,
-                                        height: 60))
+    let buttonUrl = CustomButtonBuilder().getCustomButton(title: "Перейти на сайт")
     
     private let scrollView = UIScrollView()
     private let priceImageView = UIImageView()
@@ -58,13 +55,8 @@ final class DetailViewController: UIViewController {
         priceLabel.font = .systemFont(ofSize: 16, weight: .semibold)
         descriptionLabel.font = .systemFont(ofSize: 17, weight: .light)
         descriptionLabel.isEditable = false
-        buttonUrl.setTitle("Перейти на сайт", for: .normal)
-        buttonUrl.setTitleColor(.systemGray6,for: .normal)
         buttonUrl.addTarget(self,action: #selector(buttonUrlAction),
                          for: .touchUpInside)
-        
-        buttonUrl.backgroundColor = #colorLiteral(red: 0.4392156899, green:
-                                                    0.01176470611, blue: 0.1921568662, alpha: 0.8)
         ageRestrictionLabel.font = .systemFont(ofSize: 16, weight: .semibold)
         
         categoryLabel.font = .systemFont(ofSize: 15, weight: .thin)
