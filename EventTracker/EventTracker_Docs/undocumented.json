@@ -1,0 +1,3428 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 5,
+      "symbol": "DetailContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 6,
+      "symbol": "DetailContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 7,
+      "symbol": "DetailContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 35,
+      "symbol": "DetailContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 36,
+      "symbol": "DetailContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 37,
+      "symbol": "DetailContext.poster",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailContainer.swift",
+      "line": 38,
+      "symbol": "DetailContext.isInFavorites",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailInteractor.swift",
+      "line": 4,
+      "symbol": "DetailInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailInteractor.swift",
+      "line": 5,
+      "symbol": "DetailInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailInteractor.swift",
+      "line": 9,
+      "symbol": "DetailInteractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailManager.swift",
+      "line": 4,
+      "symbol": "DetailManagerDescription",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailManager.swift",
+      "line": 5,
+      "symbol": "DetailManagerDescription.isInFavorites(id:complition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailManager.swift",
+      "line": 11,
+      "symbol": "DetailManager.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 5,
+      "symbol": "DetailPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 6,
+      "symbol": "DetailPresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 7,
+      "symbol": "DetailPresenter.poster",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 8,
+      "symbol": "DetailPresenter.isInFavorites",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 13,
+      "symbol": "DetailPresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 59,
+      "symbol": "DetailPresenter.getPosterDict()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 81,
+      "symbol": "DetailPresenter.didLoadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 87,
+      "symbol": "DetailPresenter.didTapButtonUrl()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 91,
+      "symbol": "DetailPresenter.didTapAddToFavorites()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 95,
+      "symbol": "DetailPresenter.didTapRemoveFromFavorites()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailPresenter.swift",
+      "line": 101,
+      "symbol": "DetailPresenter.didReceive(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 3,
+      "symbol": "DetailModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 4,
+      "symbol": "DetailModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 5,
+      "symbol": "DetailModuleInput.poster",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 8,
+      "symbol": "DetailModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 11,
+      "symbol": "DetailViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 12,
+      "symbol": "DetailViewInput.loadData(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 15,
+      "symbol": "DetailViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 16,
+      "symbol": "DetailViewOutput.didLoadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 17,
+      "symbol": "DetailViewOutput.didTapButtonUrl()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 18,
+      "symbol": "DetailViewOutput.didTapAddToFavorites()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 19,
+      "symbol": "DetailViewOutput.didTapRemoveFromFavorites()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 22,
+      "symbol": "DetailInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 23,
+      "symbol": "DetailInteractorInput.addToFavorites(dict:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 24,
+      "symbol": "DetailInteractorInput.removeFromFavorites(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 27,
+      "symbol": "DetailInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 28,
+      "symbol": "DetailInteractorOutput.didReceive(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 31,
+      "symbol": "DetailRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 32,
+      "symbol": "DetailRouterInput.showSite(siteUrl:output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailProtocols.swift",
+      "line": 33,
+      "symbol": "DetailRouterInput.showAlertErrorMessage(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailRouter.swift",
+      "line": 5,
+      "symbol": "DetailRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 3,
+      "symbol": "DetailSiteContainer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 4,
+      "symbol": "DetailSiteContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 5,
+      "symbol": "DetailSiteContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 6,
+      "symbol": "DetailSiteContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 8,
+      "symbol": "DetailSiteContainer.assemble(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 30,
+      "symbol": "DetailSiteContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 31,
+      "symbol": "DetailSiteContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteContainer.swift",
+      "line": 32,
+      "symbol": "DetailSiteContext.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteInteractor.swift",
+      "line": 3,
+      "symbol": "DetailSiteInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteInteractor.swift",
+      "line": 4,
+      "symbol": "DetailSiteInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteInteractor.swift",
+      "line": 7,
+      "symbol": "DetailSiteInteractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 3,
+      "symbol": "DetailSitePresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 4,
+      "symbol": "DetailSitePresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 5,
+      "symbol": "DetailSitePresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 6,
+      "symbol": "DetailSitePresenter.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 11,
+      "symbol": "DetailSitePresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 17,
+      "symbol": "DetailSitePresenter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 20,
+      "symbol": "DetailSitePresenter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 21,
+      "symbol": "DetailSitePresenter.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 30,
+      "symbol": "DetailSitePresenter.didTapRefresh()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSitePresenter.swift",
+      "line": 35,
+      "symbol": "DetailSitePresenter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 3,
+      "symbol": "DetailSiteModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 4,
+      "symbol": "DetailSiteModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 5,
+      "symbol": "DetailSiteModuleInput.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 8,
+      "symbol": "DetailSiteModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 11,
+      "symbol": "DetailSiteViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 12,
+      "symbol": "DetailSiteViewInput.loadWebView(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 15,
+      "symbol": "DetailSiteViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 16,
+      "symbol": "DetailSiteViewOutput.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 17,
+      "symbol": "DetailSiteViewOutput.didTapRefresh()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 20,
+      "symbol": "DetailSiteInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 23,
+      "symbol": "DetailSiteInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteProtocols.swift",
+      "line": 26,
+      "symbol": "DetailSiteRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteRouter.swift",
+      "line": 3,
+      "symbol": "DetailSiteRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteRouter.swift",
+      "line": 6,
+      "symbol": "DetailSiteRouter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 4,
+      "symbol": "DetailSiteViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 6,
+      "symbol": "DetailSiteViewController.webConfiguration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 7,
+      "symbol": "DetailSiteViewController.webView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 9,
+      "symbol": "DetailSiteViewController.init(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 20,
+      "symbol": "DetailSiteViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 31,
+      "symbol": "DetailSiteViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 44,
+      "symbol": "DetailSiteViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 45,
+      "symbol": "DetailSiteViewController.loadWebView(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailSite/DetailSiteViewController.swift",
+      "line": 50,
+      "symbol": "DetailSiteViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewController.swift",
+      "line": 21,
+      "symbol": "DetailViewController.buttonUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewController.swift",
+      "line": 26,
+      "symbol": "DetailViewController.init(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewController.swift",
+      "line": 36,
+      "symbol": "DetailViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewController.swift",
+      "line": 77,
+      "symbol": "DetailViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewController.swift",
+      "line": 201,
+      "symbol": "DetailViewController.loadData(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 3,
+      "symbol": "DetailViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 4,
+      "symbol": "DetailViewModel.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 5,
+      "symbol": "DetailViewModel.address",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 6,
+      "symbol": "DetailViewModel.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 7,
+      "symbol": "DetailViewModel.category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 8,
+      "symbol": "DetailViewModel.price",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 9,
+      "symbol": "DetailViewModel.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 10,
+      "symbol": "DetailViewModel.age_restriction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 11,
+      "symbol": "DetailViewModel.site_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Detail/DetailViewModel.swift",
+      "line": 12,
+      "symbol": "DetailViewModel.isInFavorites",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/AppDelegate.swift",
+      "line": 19,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/AppDelegate.swift",
+      "line": 23,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 10,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 12,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 15,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 65,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 68,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 72,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 76,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/SceneDelegate.swift",
+      "line": 79,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/ViewController.swift",
+      "line": 10,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/EventTracker/ViewController.swift",
+      "line": 12,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesContainer.swift",
+      "line": 5,
+      "symbol": "FavoritesContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesInteractor.swift",
+      "line": 7,
+      "symbol": "FavoritesInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesPresenter.swift",
+      "line": 6,
+      "symbol": "FavoritesPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesPresenter.swift",
+      "line": 12,
+      "symbol": "FavoritesPresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesPresenter.swift",
+      "line": 17,
+      "symbol": "FavoritesPresenter.postersViewModels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesPresenter.swift",
+      "line": 44,
+      "symbol": "FavoritesPresenter.didLoad(posters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesPresenter.swift",
+      "line": 52,
+      "symbol": "FavoritesPresenter.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 3,
+      "symbol": "FavoritesViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 4,
+      "symbol": "FavoritesViewInput.reloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 7,
+      "symbol": "FavoritesViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 8,
+      "symbol": "FavoritesViewOutput.postersViewModels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 10,
+      "symbol": "FavoritesViewOutput.didLoadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 11,
+      "symbol": "FavoritesViewOutput.didPullRefresh()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 12,
+      "symbol": "FavoritesViewOutput.didTapCell(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 15,
+      "symbol": "FavoritesInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 16,
+      "symbol": "FavoritesInteractorInput.load()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 19,
+      "symbol": "FavoritesInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 20,
+      "symbol": "FavoritesInteractorOutput.didLoad(posters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 21,
+      "symbol": "FavoritesInteractorOutput.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 24,
+      "symbol": "FavoritesRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 25,
+      "symbol": "FavoritesRouterInput.showLogin(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 26,
+      "symbol": "FavoritesRouterInput.showPoster(with:isInFavorites:output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesProtocols.swift",
+      "line": 27,
+      "symbol": "FavoritesRouterInput.showAlertErrorMessage(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesRouter.swift",
+      "line": 5,
+      "symbol": "FavoritesRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesRouter.swift",
+      "line": 6,
+      "symbol": "FavoritesRouter.sourceTabBarController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 9,
+      "symbol": "FavoritesViewController.init(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 14,
+      "symbol": "FavoritesViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 18,
+      "symbol": "FavoritesViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 37,
+      "symbol": "FavoritesViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 42,
+      "symbol": "FavoritesViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 55,
+      "symbol": "FavoritesViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 59,
+      "symbol": "FavoritesViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 70,
+      "symbol": "FavoritesViewController.tableView(_:heightForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Favorites/FavoritesViewController.swift",
+      "line": 74,
+      "symbol": "FavoritesViewController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 12,
+      "symbol": "LoginContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 13,
+      "symbol": "LoginContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 14,
+      "symbol": "LoginContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 16,
+      "symbol": "LoginContainer.assemble(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 38,
+      "symbol": "LoginContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 39,
+      "symbol": "LoginContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginContainer.swift",
+      "line": 40,
+      "symbol": "LoginContext.tabBar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginPresenter.swift",
+      "line": 13,
+      "symbol": "LoginPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginPresenter.swift",
+      "line": 14,
+      "symbol": "LoginPresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 11,
+      "symbol": "LoginModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 12,
+      "symbol": "LoginModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 15,
+      "symbol": "LoginModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 18,
+      "symbol": "LoginViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 19,
+      "symbol": "LoginViewInput.showError(description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 20,
+      "symbol": "LoginViewInput.dismiss()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 21,
+      "symbol": "LoginViewInput.backToLoginView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 24,
+      "symbol": "LoginViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 25,
+      "symbol": "LoginViewOutput.didTapResetPassword(email:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 26,
+      "symbol": "LoginViewOutput.didReceiveError(description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 27,
+      "symbol": "LoginViewOutput.didTapCreateUser(email:password:name:city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 28,
+      "symbol": "LoginViewOutput.didTapLogin(login:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 29,
+      "symbol": "LoginViewOutput.didTapExitAuth()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 30,
+      "symbol": "LoginViewOutput.getCitiesData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 33,
+      "symbol": "LoginInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 34,
+      "symbol": "LoginInteractorInput.createUser(userData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 35,
+      "symbol": "LoginInteractorInput.login(login:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 36,
+      "symbol": "LoginInteractorInput.resetPassword(email:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 39,
+      "symbol": "LoginInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 40,
+      "symbol": "LoginInteractorOutput.didLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 41,
+      "symbol": "LoginInteractorOutput.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 42,
+      "symbol": "LoginInteractorOutput.didResetPassword()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 45,
+      "symbol": "LoginRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginProtocols.swift",
+      "line": 46,
+      "symbol": "LoginRouterInput.showPoster()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginRouter.swift",
+      "line": 12,
+      "symbol": "LoginRouter.sourceTabBarController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginView.swift",
+      "line": 12,
+      "symbol": "LoginViewInputDescription",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginView.swift",
+      "line": 13,
+      "symbol": "LoginViewInputDescription.showError(description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginView.swift",
+      "line": 14,
+      "symbol": "LoginViewInputDescription.backToLoginView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginView.swift",
+      "line": 163,
+      "symbol": "LoginView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Login/LoginView.swift",
+      "line": 503,
+      "symbol": "UITextField.indent(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapContainer.swift",
+      "line": 13,
+      "symbol": "MapContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapContainer.swift",
+      "line": 14,
+      "symbol": "MapContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapContainer.swift",
+      "line": 15,
+      "symbol": "MapContainer.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapContainer.swift",
+      "line": 16,
+      "symbol": "MapContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapContainer.swift",
+      "line": 41,
+      "symbol": "MapContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapContainer.swift",
+      "line": 42,
+      "symbol": "MapContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapInteractor.swift",
+      "line": 11,
+      "symbol": "MapInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapInteractor.swift",
+      "line": 12,
+      "symbol": "MapInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapInteractor.swift",
+      "line": 16,
+      "symbol": "MapInteractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPlace.swift",
+      "line": 3,
+      "symbol": "MapPlace",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPlace.swift",
+      "line": 4,
+      "symbol": "MapPlace.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPlace.swift",
+      "line": 5,
+      "symbol": "MapPlace.subtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPlace.swift",
+      "line": 6,
+      "symbol": "MapPlace.coordinate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPlace.swift",
+      "line": 7,
+      "symbol": "MapPlace.poster",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPlace.swift",
+      "line": 9,
+      "symbol": "MapPlace.init(title:subtitle:coordinate:poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPresenter.swift",
+      "line": 15,
+      "symbol": "MapPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPresenter.swift",
+      "line": 16,
+      "symbol": "MapPresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapPresenter.swift",
+      "line": 27,
+      "symbol": "MapPresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 11,
+      "symbol": "MapModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 12,
+      "symbol": "MapModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 15,
+      "symbol": "MapModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 18,
+      "symbol": "MapViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 19,
+      "symbol": "MapViewInput.reloadData(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 22,
+      "symbol": "MapViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 23,
+      "symbol": "MapViewOutput.mapPlaces",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 24,
+      "symbol": "MapViewOutput.didLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 25,
+      "symbol": "MapViewOutput.didTapCell(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 28,
+      "symbol": "MapInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 29,
+      "symbol": "MapInteractorInput.getCityService()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 30,
+      "symbol": "MapInteractorInput.isInFavorites(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 33,
+      "symbol": "MapInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 34,
+      "symbol": "MapInteractorOutput.setCityService(cityService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 35,
+      "symbol": "MapInteractorOutput.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 36,
+      "symbol": "MapInteractorOutput.isInFavorites(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 37,
+      "symbol": "MapInteractorOutput.notInFavorites(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 40,
+      "symbol": "MapRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 40,
+      "symbol": "MapRouterInput.showAlertErrorMessage(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapProtocols.swift",
+      "line": 41,
+      "symbol": "MapRouterInput.showPoster(with:isInFavorites:output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapRouter.swift",
+      "line": 13,
+      "symbol": "MapRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapViewController.swift",
+      "line": 22,
+      "symbol": "MapViewController.init(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapViewController.swift",
+      "line": 33,
+      "symbol": "MapViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapViewController.swift",
+      "line": 68,
+      "symbol": "MapViewController.mapView(_:viewFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Map/MapViewController.swift",
+      "line": 92,
+      "symbol": "MapViewController.mapView(_:annotationView:calloutAccessoryControlTapped:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/EntertaimentTableViewCell.swift",
+      "line": 33,
+      "symbol": "EntertaimentTableViewCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterCell.swift",
+      "line": 10,
+      "symbol": "CategoriesFilterCellOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterCell.swift",
+      "line": 11,
+      "symbol": "CategoriesFilterCellOutput.didСhooseCheckmark(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterCell.swift",
+      "line": 12,
+      "symbol": "CategoriesFilterCellOutput.didСanceledCheckmark(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterCell.swift",
+      "line": 17,
+      "symbol": "CategoriesFilterCell.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterCell.swift",
+      "line": 29,
+      "symbol": "CategoriesFilterCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 12,
+      "symbol": "CategoriesFilterContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 13,
+      "symbol": "CategoriesFilterContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 14,
+      "symbol": "CategoriesFilterContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 16,
+      "symbol": "CategoriesFilterContainer.assemble(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 37,
+      "symbol": "CategoriesFilterContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 38,
+      "symbol": "CategoriesFilterContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterContainer.swift",
+      "line": 39,
+      "symbol": "CategoriesFilterContext.previousCategories",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterInteractor.swift",
+      "line": 11,
+      "symbol": "CategoriesFilterInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterInteractor.swift",
+      "line": 12,
+      "symbol": "CategoriesFilterInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterInteractor.swift",
+      "line": 15,
+      "symbol": "CategoriesFilterInteractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterPresenter.swift",
+      "line": 13,
+      "symbol": "CategoriesFilterPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterPresenter.swift",
+      "line": 14,
+      "symbol": "CategoriesFilterPresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 11,
+      "symbol": "CategoriesFilterModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 12,
+      "symbol": "CategoriesFilterModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 15,
+      "symbol": "CategoriesFilterModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 16,
+      "symbol": "CategoriesFilterModuleOutput.didChangeChosenCategories(chosenCategories:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 19,
+      "symbol": "CategoriesFilterViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 20,
+      "symbol": "CategoriesFilterViewInput.reloadTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 23,
+      "symbol": "CategoriesFilterViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 24,
+      "symbol": "CategoriesFilterViewOutput.categories",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 25,
+      "symbol": "CategoriesFilterViewOutput.chosenCategories",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 27,
+      "symbol": "CategoriesFilterViewOutput.didСhooseCheckmark(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 28,
+      "symbol": "CategoriesFilterViewOutput.didСanceledCheckmark(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 32,
+      "symbol": "CategoriesFilterInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 35,
+      "symbol": "CategoriesFilterInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterProtocols.swift",
+      "line": 38,
+      "symbol": "CategoriesFilterRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterRouter.swift",
+      "line": 11,
+      "symbol": "CategoriesFilterRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/CategoriesFilterRouter.swift",
+      "line": 14,
+      "symbol": "CategoriesFilterRouter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/Mocks/CategoriesFilterInteractorInputMock.swift",
+      "line": 11,
+      "symbol": "CategoriesFilterInteractorInputMock",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CategoriesFilter/Mocks/CategoriesFilterRouterInputMock.swift",
+      "line": 11,
+      "symbol": "CategoriesFilterRouterInputMock",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterCell.swift",
+      "line": 21,
+      "symbol": "CitiesFilterCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 12,
+      "symbol": "CitiesFilterContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 13,
+      "symbol": "CitiesFilterContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 14,
+      "symbol": "CitiesFilterContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 16,
+      "symbol": "CitiesFilterContainer.assemble(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 37,
+      "symbol": "CitiesFilterContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 38,
+      "symbol": "CitiesFilterContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterContainer.swift",
+      "line": 39,
+      "symbol": "CitiesFilterContext.previousCity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterInteractor.swift",
+      "line": 11,
+      "symbol": "CitiesFilterInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterInteractor.swift",
+      "line": 12,
+      "symbol": "CitiesFilterInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterInteractor.swift",
+      "line": 15,
+      "symbol": "CitiesFilterInteractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterPresenter.swift",
+      "line": 13,
+      "symbol": "CitiesFilterPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterPresenter.swift",
+      "line": 14,
+      "symbol": "CitiesFilterPresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 10,
+      "symbol": "CitiesFilterModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 11,
+      "symbol": "CitiesFilterModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 14,
+      "symbol": "CitiesFilterModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 15,
+      "symbol": "CitiesFilterModuleOutput.serviceCity(serviceCity:cityName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 18,
+      "symbol": "CitiesFilterViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 19,
+      "symbol": "CitiesFilterViewInput.reloadTable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 22,
+      "symbol": "CitiesFilterViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 23,
+      "symbol": "CitiesFilterViewOutput.defaultCities",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 24,
+      "symbol": "CitiesFilterViewOutput.chosenCity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 25,
+      "symbol": "CitiesFilterViewOutput.didChangeCity(city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 28,
+      "symbol": "CitiesFilterInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 31,
+      "symbol": "CitiesFilterInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterProtocols.swift",
+      "line": 34,
+      "symbol": "CitiesFilterRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterRouter.swift",
+      "line": 11,
+      "symbol": "CitiesFilterRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/CitiesFilterRouter.swift",
+      "line": 14,
+      "symbol": "CitiesFilterRouter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/Mocks/CitiesFilterInteractorInputMock.swift",
+      "line": 11,
+      "symbol": "CitiesFilterInteractorInputMock",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/CitiesFilter/Mocks/CitiesFilterRouterInputMock.swift",
+      "line": 11,
+      "symbol": "CitiesFilterRouterInputMock",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 13,
+      "symbol": "FilterContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 14,
+      "symbol": "FilterContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 15,
+      "symbol": "FilterContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 17,
+      "symbol": "FilterContainer.assemble(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 41,
+      "symbol": "FilterContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 42,
+      "symbol": "FilterContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterContainer.swift",
+      "line": 43,
+      "symbol": "FilterContext.cityService",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterInteractor.swift",
+      "line": 11,
+      "symbol": "FilterInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterInteractor.swift",
+      "line": 12,
+      "symbol": "FilterInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterInteractor.swift",
+      "line": 15,
+      "symbol": "FilterInteractor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterPresenter.swift",
+      "line": 13,
+      "symbol": "FilterPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterPresenter.swift",
+      "line": 14,
+      "symbol": "FilterPresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterPresenter.swift",
+      "line": 21,
+      "symbol": "FilterPresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 11,
+      "symbol": "FilterModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 12,
+      "symbol": "FilterModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 15,
+      "symbol": "FilterModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 16,
+      "symbol": "FilterModuleOutput.setFilterValues(filterValues:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 19,
+      "symbol": "FilterViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 20,
+      "symbol": "FilterViewInput.update()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 23,
+      "symbol": "FilterViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 24,
+      "symbol": "FilterViewOutput.didTapCell(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 25,
+      "symbol": "FilterViewOutput.didTapAcceptButton()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 26,
+      "symbol": "FilterViewOutput.getCity()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 27,
+      "symbol": "FilterViewOutput.getCategoriesIndicator()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 30,
+      "symbol": "FilterInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 33,
+      "symbol": "FilterInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 36,
+      "symbol": "FilterRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 37,
+      "symbol": "FilterRouterInput.closeFilter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 38,
+      "symbol": "FilterRouterInput.showCitiesFilter(output:city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterProtocols.swift",
+      "line": 39,
+      "symbol": "FilterRouterInput.showCategoriesFilter(output:categories:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterRouter.swift",
+      "line": 12,
+      "symbol": "FilterRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterTableViewCell.swift",
+      "line": 24,
+      "symbol": "TableViewCellWithLabel.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterViewController.swift",
+      "line": 12,
+      "symbol": "FilterViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterViewController.swift",
+      "line": 72,
+      "symbol": "FilterViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/FilterViewController.swift",
+      "line": 123,
+      "symbol": "FilterViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/Mocks/FilterInteractorInputMock.swift",
+      "line": 11,
+      "symbol": "FilterInteractorMock",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/Mocks/FilterRouterInputMock.swift",
+      "line": 11,
+      "symbol": "FilterRouterInputMock",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/Mocks/FilterRouterInputMock.swift",
+      "line": 12,
+      "symbol": "FilterRouterInputMock.showCitiesFilter(output:city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/Mocks/FilterRouterInputMock.swift",
+      "line": 15,
+      "symbol": "FilterRouterInputMock.showCategoriesFilter(output:categories:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/Filter/Mocks/FilterRouterInputMock.swift",
+      "line": 18,
+      "symbol": "FilterRouterInputMock.closeFilter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterContainer.swift",
+      "line": 5,
+      "symbol": "PosterContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterContainer.swift",
+      "line": 6,
+      "symbol": "PosterContainer.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterContainer.swift",
+      "line": 13,
+      "symbol": "PosterContainer.assemble(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterContainer.swift",
+      "line": 28,
+      "symbol": "PosterContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterContainer.swift",
+      "line": 29,
+      "symbol": "PosterContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterManager.swift",
+      "line": 3,
+      "symbol": "NetworkError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterManager.swift",
+      "line": 4,
+      "symbol": "NetworkError.unexpected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterManager.swift",
+      "line": 7,
+      "symbol": "PostersManagerDescription",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterManager.swift",
+      "line": 8,
+      "symbol": "PostersManagerDescription.load(posters:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterManager.swift",
+      "line": 14,
+      "symbol": "PostersManager.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 3,
+      "symbol": "PosterModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 4,
+      "symbol": "PosterModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 7,
+      "symbol": "PosterModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 8,
+      "symbol": "PosterModuleOutput.setNewPosters(posters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 9,
+      "symbol": "PosterModuleOutput.setNewCity(cityService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 12,
+      "symbol": "PosterViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 13,
+      "symbol": "PosterViewInput.reloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 14,
+      "symbol": "PosterViewInput.startRefreshing()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 17,
+      "symbol": "PosterViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 19,
+      "symbol": "PosterViewOutput.postersViewModels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 20,
+      "symbol": "PosterViewOutput.searchPostersViewModels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 22,
+      "symbol": "PosterViewOutput.didLoadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 23,
+      "symbol": "PosterViewOutput.didPullRefresh()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 24,
+      "symbol": "PosterViewOutput.didTapCell(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 25,
+      "symbol": "PosterViewOutput.didTapFilter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 28,
+      "symbol": "PosterInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 29,
+      "symbol": "PosterInteractorInput.load(posters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 30,
+      "symbol": "PosterInteractorInput.isInFavorites(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 31,
+      "symbol": "PosterInteractorInput.getCityService()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 34,
+      "symbol": "PosterInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 35,
+      "symbol": "PosterInteractorOutput.didLoad(posters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 36,
+      "symbol": "PosterInteractorOutput.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 37,
+      "symbol": "PosterInteractorOutput.isInFavorites(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 38,
+      "symbol": "PosterInteractorOutput.notInFavorites(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 39,
+      "symbol": "PosterInteractorOutput.setCityService(cityService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 42,
+      "symbol": "PosterRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 43,
+      "symbol": "PosterRouterInput.showPoster(with:isInFavorites:output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 44,
+      "symbol": "PosterRouterInput.openFilter(output:defaultCityService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 45,
+      "symbol": "PosterRouterInput.showAlertErrorMessage(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterProtocols.swift",
+      "line": 46,
+      "symbol": "PosterRouterInput.clearViewStack()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterRouter.swift",
+      "line": 5,
+      "symbol": "PosterRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterServiceModel.swift",
+      "line": 86,
+      "symbol": "PosterResponce.results",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterViewController.swift",
+      "line": 28,
+      "symbol": "PosterViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterViewController.swift",
+      "line": 31,
+      "symbol": "PosterViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterViewController.swift",
+      "line": 61,
+      "symbol": "PosterViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterViewModelManager.swift",
+      "line": 3,
+      "symbol": "PosterViewModelManagerDescription",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterViewModelManager.swift",
+      "line": 4,
+      "symbol": "PosterViewModelManagerDescription.posterResultsToPosterViewModel(poster:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Poster/PosterViewModelManager.swift",
+      "line": 10,
+      "symbol": "PosterViewModelManager.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileContainer.swift",
+      "line": 13,
+      "symbol": "ChangeUserProfileContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileContainer.swift",
+      "line": 14,
+      "symbol": "ChangeUserProfileContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileContainer.swift",
+      "line": 15,
+      "symbol": "ChangeUserProfileContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileContainer.swift",
+      "line": 41,
+      "symbol": "ChangeUserProfileContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileContainer.swift",
+      "line": 42,
+      "symbol": "ChangeUserProfileContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileContainer.swift",
+      "line": 43,
+      "symbol": "ChangeUserProfileContext.userInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileInteractor.swift",
+      "line": 13,
+      "symbol": "ChangeUserProfileInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 13,
+      "symbol": "ChangeUserProfilePresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 14,
+      "symbol": "ChangeUserProfilePresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 18,
+      "symbol": "ChangeUserProfilePresenter.userInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 20,
+      "symbol": "ChangeUserProfilePresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 35,
+      "symbol": "ChangeUserProfilePresenter.getName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 39,
+      "symbol": "ChangeUserProfilePresenter.getCity()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 43,
+      "symbol": "ChangeUserProfilePresenter.getCitiesData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfilePresenter.swift",
+      "line": 47,
+      "symbol": "ChangeUserProfilePresenter.getCityIndex()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 11,
+      "symbol": "ChangeUserProfileModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 12,
+      "symbol": "ChangeUserProfileModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 15,
+      "symbol": "ChangeUserProfileModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 16,
+      "symbol": "ChangeUserProfileModuleOutput.didChangeCity()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 19,
+      "symbol": "ChangeUserProfileViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 22,
+      "symbol": "ChangeUserProfileViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 23,
+      "symbol": "ChangeUserProfileViewOutput.getName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 24,
+      "symbol": "ChangeUserProfileViewOutput.getCity()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 25,
+      "symbol": "ChangeUserProfileViewOutput.getCitiesData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 26,
+      "symbol": "ChangeUserProfileViewOutput.getCityIndex()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 27,
+      "symbol": "ChangeUserProfileViewOutput.didTapChangeUserProfile(newCity:newName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 30,
+      "symbol": "ChangeUserProfileInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 31,
+      "symbol": "ChangeUserProfileInteractorInput.changeUserData(userData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 34,
+      "symbol": "ChangeUserProfileInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 35,
+      "symbol": "ChangeUserProfileInteractorOutput.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 36,
+      "symbol": "ChangeUserProfileInteractorOutput.didChangeData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 39,
+      "symbol": "ChangeUserProfileRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 40,
+      "symbol": "ChangeUserProfileRouterInput.showAlertErrorMessage(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileProtocols.swift",
+      "line": 41,
+      "symbol": "ChangeUserProfileRouterInput.backToProfile()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileRouter.swift",
+      "line": 12,
+      "symbol": "ChangeUserProfileRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 17,
+      "symbol": "ChangeUserProfileViewController.pickerData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 18,
+      "symbol": "ChangeUserProfileViewController.pickerChoose",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 19,
+      "symbol": "ChangeUserProfileViewController.acceptButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 24,
+      "symbol": "ChangeUserProfileViewController.init(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 58,
+      "symbol": "ChangeUserProfileViewController.setup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 74,
+      "symbol": "ChangeUserProfileViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 88,
+      "symbol": "ChangeUserProfileViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 118,
+      "symbol": "ChangeUserProfileViewController.numberOfComponents(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 122,
+      "symbol": "ChangeUserProfileViewController.pickerView(_:numberOfRowsInComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 126,
+      "symbol": "ChangeUserProfileViewController.pickerView(_:titleForRow:forComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ChangeUserProfile/ChangeUserProfileViewController.swift",
+      "line": 130,
+      "symbol": "ChangeUserProfileViewController.pickerView(_:didSelectRow:inComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileContainer.swift",
+      "line": 13,
+      "symbol": "ProfileContainer.input",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileContainer.swift",
+      "line": 14,
+      "symbol": "ProfileContainer.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileContainer.swift",
+      "line": 15,
+      "symbol": "ProfileContainer.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileContainer.swift",
+      "line": 41,
+      "symbol": "ProfileContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileContainer.swift",
+      "line": 42,
+      "symbol": "ProfileContext.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileContainer.swift",
+      "line": 43,
+      "symbol": "ProfileContext.tabBar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileInteractor.swift",
+      "line": 14,
+      "symbol": "ProfileInteractor.output",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfilePresenter.swift",
+      "line": 14,
+      "symbol": "ProfilePresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfilePresenter.swift",
+      "line": 15,
+      "symbol": "ProfilePresenter.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfilePresenter.swift",
+      "line": 16,
+      "symbol": "ProfilePresenter.userInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfilePresenter.swift",
+      "line": 21,
+      "symbol": "ProfilePresenter.init(router:interactor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 11,
+      "symbol": "ProfileModuleInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 12,
+      "symbol": "ProfileModuleInput.moduleOutput",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 15,
+      "symbol": "ProfileModuleOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 16,
+      "symbol": "ProfileModuleOutput.update()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 19,
+      "symbol": "ProfileViewInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 20,
+      "symbol": "ProfileViewInput.reloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 23,
+      "symbol": "ProfileViewOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 24,
+      "symbol": "ProfileViewOutput.userInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 25,
+      "symbol": "ProfileViewOutput.didLoadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 26,
+      "symbol": "ProfileViewOutput.didTapLogout()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 27,
+      "symbol": "ProfileViewOutput.didTapChange()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 30,
+      "symbol": "ProfileInteractorInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 31,
+      "symbol": "ProfileInteractorInput.logout()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 32,
+      "symbol": "ProfileInteractorInput.getUserInfo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 35,
+      "symbol": "ProfileInteractorOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 36,
+      "symbol": "ProfileInteractorOutput.didReceive(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 37,
+      "symbol": "ProfileInteractorOutput.setUserInfo(userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 38,
+      "symbol": "ProfileInteractorOutput.showLogin()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 41,
+      "symbol": "ProfileRouterInput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 42,
+      "symbol": "ProfileRouterInput.showLoginView(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 43,
+      "symbol": "ProfileRouterInput.showAlertErrorMessage(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileProtocols.swift",
+      "line": 44,
+      "symbol": "ProfileRouterInput.openChangeUserProfile(output:userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileRouter.swift",
+      "line": 13,
+      "symbol": "ProfileRouter.sourceTabBarController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileRouter.swift",
+      "line": 14,
+      "symbol": "ProfileRouter.sourceViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 15,
+      "symbol": "ProfileViewController.buttonLogout",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 20,
+      "symbol": "ProfileViewController.changeProfileData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 22,
+      "symbol": "ProfileViewController.nameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 23,
+      "symbol": "ProfileViewController.cityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 25,
+      "symbol": "ProfileViewController.init(output:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 36,
+      "symbol": "ProfileViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 44,
+      "symbol": "ProfileViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 81,
+      "symbol": "ProfileViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewController.swift",
+      "line": 119,
+      "symbol": "ProfileViewController.viewDidDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewModel.swift",
+      "line": 10,
+      "symbol": "UserProfileViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewModel.swift",
+      "line": 11,
+      "symbol": "UserProfileViewModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/ProfileViewModel.swift",
+      "line": 12,
+      "symbol": "UserProfileViewModel.city",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/UserProfileManager.swift",
+      "line": 11,
+      "symbol": "UserProfileManagerDescription",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/UserProfileManager.swift",
+      "line": 12,
+      "symbol": "UserProfileManagerDescription.getUserInfo(complition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/UserProfileManager.swift",
+      "line": 13,
+      "symbol": "UserProfileManagerDescription.getCityService(complition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/UserProfileManager.swift",
+      "line": 14,
+      "symbol": "UserProfileManagerDescription.changeUserData(userData:complition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/UserProfileManager.swift",
+      "line": 19,
+      "symbol": "UserProfileManager.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/Profile/UserProfileManager.swift",
+      "line": 20,
+      "symbol": "UserProfileManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/ServiceData.swift",
+      "line": 28,
+      "symbol": "ServiceData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/ServiceData.swift",
+      "line": 71,
+      "symbol": "ServiceData.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker/ServiceData.swift",
+      "line": 90,
+      "symbol": "Dictionary.someKey(forValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/georgijkulikov/Desktop/twt/TWT/EventTracker"
+}

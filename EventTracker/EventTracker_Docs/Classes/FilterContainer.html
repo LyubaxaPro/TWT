@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FilterContainer Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/FilterContainer" class="dashAnchor"></a>
+    <a title="FilterContainer Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">EventTracker 1.0 Docs</a> (43% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">EventTracker Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        FilterContainer Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AlertManager.html">AlertManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CategoriesFilterCell.html">CategoriesFilterCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CategoriesFilterContainer.html">CategoriesFilterContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CategoriesFilterInteractor.html">CategoriesFilterInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker35CategoriesFilterInteractorInputMockC">CategoriesFilterInteractorInputMock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CategoriesFilterPresenter.html">CategoriesFilterPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker22CategoriesFilterRouterC">CategoriesFilterRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker31CategoriesFilterRouterInputMockC">CategoriesFilterRouterInputMock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CategoriesFilterViewController.html">CategoriesFilterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChangeUserProfileContainer.html">ChangeUserProfileContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChangeUserProfileInteractor.html">ChangeUserProfileInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChangeUserProfilePresenter.html">ChangeUserProfilePresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChangeUserProfileRouter.html">ChangeUserProfileRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChangeUserProfileViewController.html">ChangeUserProfileViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesFilterCell.html">CitiesFilterCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesFilterContainer.html">CitiesFilterContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesFilterInteractor.html">CitiesFilterInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker31CitiesFilterInteractorInputMockC">CitiesFilterInteractorInputMock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesFilterPresenter.html">CitiesFilterPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker18CitiesFilterRouterC">CitiesFilterRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker27CitiesFilterRouterInputMockC">CitiesFilterRouterInputMock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesFilterViewController.html">CitiesFilterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomButtonBuilder.html">CustomButtonBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailContainer.html">DetailContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailInteractor.html">DetailInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailManager.html">DetailManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailPresenter.html">DetailPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailRouter.html">DetailRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailSiteContainer.html">DetailSiteContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailSiteInteractor.html">DetailSiteInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailSitePresenter.html">DetailSitePresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker16DetailSiteRouterC">DetailSiteRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailSiteViewController.html">DetailSiteViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailViewController.html">DetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EntertaimentTableViewCell.html">EntertaimentTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FavoritesContainer.html">FavoritesContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FavoritesInteractor.html">FavoritesInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FavoritesPresenter.html">FavoritesPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FavoritesRouter.html">FavoritesRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FavoritesViewController.html">FavoritesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FilterContainer.html">FilterContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FilterInteractor.html">FilterInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:12EventTracker20FilterInteractorMockC">FilterInteractorMock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FilterPresenter.html">FilterPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FilterRouter.html">FilterRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FilterRouterInputMock.html">FilterRouterInputMock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FilterViewController.html">FilterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginContainer.html">LoginContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginInteractor.html">LoginInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginPresenter.html">LoginPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginRouter.html">LoginRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginView.html">LoginView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapContainer.html">MapContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapInteractor.html">MapInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapPlace.html">MapPlace</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapPresenter.html">MapPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapRouter.html">MapRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MapViewController.html">MapViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PosterContainer.html">PosterContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PosterInteractor.html">PosterInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PosterPresenter.html">PosterPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PosterRouter.html">PosterRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PosterViewController.html">PosterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PosterViewModelManager.html">PosterViewModelManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PostersManager.html">PostersManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileContainer.html">ProfileContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileInteractor.html">ProfileInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfilePresenter.html">ProfilePresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileRouter.html">ProfileRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileViewController.html">ProfileViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServiceData.html">ServiceData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TableViewCellWithLabel.html">TableViewCellWithLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserProfileManager.html">UserProfileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewController.html">ViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkError.html">NetworkError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CategoriesFilterCellOutput.html">CategoriesFilterCellOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker31CategoriesFilterInteractorInputP">CategoriesFilterInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker32CategoriesFilterInteractorOutputP">CategoriesFilterInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CategoriesFilterModuleInput.html">CategoriesFilterModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CategoriesFilterModuleOutput.html">CategoriesFilterModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker27CategoriesFilterRouterInputP">CategoriesFilterRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CategoriesFilterViewInput.html">CategoriesFilterViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CategoriesFilterViewOutput.html">CategoriesFilterViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChangeUserProfileInteractorInput.html">ChangeUserProfileInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChangeUserProfileInteractorOutput.html">ChangeUserProfileInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChangeUserProfileModuleInput.html">ChangeUserProfileModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChangeUserProfileModuleOutput.html">ChangeUserProfileModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChangeUserProfileRouterInput.html">ChangeUserProfileRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker26ChangeUserProfileViewInputP">ChangeUserProfileViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChangeUserProfileViewOutput.html">ChangeUserProfileViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker27CitiesFilterInteractorInputP">CitiesFilterInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker28CitiesFilterInteractorOutputP">CitiesFilterInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CitiesFilterModuleInput.html">CitiesFilterModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CitiesFilterModuleOutput.html">CitiesFilterModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker23CitiesFilterRouterInputP">CitiesFilterRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CitiesFilterViewInput.html">CitiesFilterViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CitiesFilterViewOutput.html">CitiesFilterViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailInteractorInput.html">DetailInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailInteractorOutput.html">DetailInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailManagerDescription.html">DetailManagerDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailModuleInput.html">DetailModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker18DetailModuleOutputP">DetailModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailRouterInput.html">DetailRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker25DetailSiteInteractorInputP">DetailSiteInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker26DetailSiteInteractorOutputP">DetailSiteInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailSiteModuleInput.html">DetailSiteModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker22DetailSiteModuleOutputP">DetailSiteModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker21DetailSiteRouterInputP">DetailSiteRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailSiteViewInput.html">DetailSiteViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailSiteViewOutput.html">DetailSiteViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailViewInput.html">DetailViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DetailViewOutput.html">DetailViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FavoritesInteractorInput.html">FavoritesInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FavoritesInteractorOutput.html">FavoritesInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FavoritesRouterInput.html">FavoritesRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FavoritesViewInput.html">FavoritesViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FavoritesViewOutput.html">FavoritesViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker21FilterInteractorInputP">FilterInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker22FilterInteractorOutputP">FilterInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FilterModuleInput.html">FilterModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FilterModuleOutput.html">FilterModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FilterRouterInput.html">FilterRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FilterViewInput.html">FilterViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FilterViewOutput.html">FilterViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginInteractorInput.html">LoginInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginInteractorOutput.html">LoginInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginModuleInput.html">LoginModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker17LoginModuleOutputP">LoginModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginRouterInput.html">LoginRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginViewInput.html">LoginViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginViewInputDescription.html">LoginViewInputDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginViewOutput.html">LoginViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapInteractorInput.html">MapInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapInteractorOutput.html">MapInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapModuleInput.html">MapModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:12EventTracker15MapModuleOutputP">MapModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapRouterInput.html">MapRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapViewInput.html">MapViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MapViewOutput.html">MapViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterInteractorInput.html">PosterInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterInteractorOutput.html">PosterInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterModuleInput.html">PosterModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterModuleOutput.html">PosterModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterRouterInput.html">PosterRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterViewInput.html">PosterViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterViewModelManagerDescription.html">PosterViewModelManagerDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PosterViewOutput.html">PosterViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PostersManagerDescription.html">PostersManagerDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileInteractorInput.html">ProfileInteractorInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileInteractorOutput.html">ProfileInteractorOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileModuleInput.html">ProfileModuleInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileModuleOutput.html">ProfileModuleOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileRouterInput.html">ProfileRouterInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileViewInput.html">ProfileViewInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProfileViewOutput.html">ProfileViewOutput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ServiceDataDescription.html">ServiceDataDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserProfileManagerDescription.html">UserProfileManagerDescription</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CategoriesFilterContext.html">CategoriesFilterContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChangeUserProfileContext.html">ChangeUserProfileContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CitiesFilterContext.html">CitiesFilterContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/City.html">City</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Coordinates.html">Coordinates</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailContext.html">DetailContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailSiteContext.html">DetailSiteContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailViewModel.html">DetailViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FilterContext.html">FilterContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FilterInfo.html">FilterInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FilterValues.html">FilterValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginContext.html">LoginContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MapContext.html">MapContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterContext.html">PosterContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterResponce.html">PosterResponce</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterResults.html">PosterResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterResults/Coords.html">– Coords</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterResults/Place.html">– Place</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterResults/Image.html">– Image</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterServiceInfo.html">PosterServiceInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterServiceLoader.html">PosterServiceLoader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PosterViewModel.html">PosterViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ProfileContext.html">ProfileContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserData.html">UserData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserProfileViewModel.html">UserProfileViewModel</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>FilterContainer</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">FilterContainer</span></code></pre>
+
+                </div>
+              </div>
+            <p>Конструктор модуля работы с экраном афиши</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12EventTracker15FilterContainerC5inputAA0C11ModuleInput_pvp"></a>
+                    <a name="//apple_ref/swift/Property/input" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12EventTracker15FilterContainerC5inputAA0C11ModuleInput_pvp">input</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">input</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FilterModuleInput.html">FilterModuleInput</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12EventTracker15FilterContainerC14viewControllerSo06UIViewF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/viewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12EventTracker15FilterContainerC14viewControllerSo06UIViewF0Cvp">viewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12EventTracker15FilterContainerC6routerAA0C11RouterInput_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/router" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12EventTracker15FilterContainerC6routerAA0C11RouterInput_pSgvp">router</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">router</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FilterRouterInput.html">FilterRouterInput</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12EventTracker15FilterContainerC8assemble4withAcA0C7ContextV_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/assemble(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12EventTracker15FilterContainerC8assemble4withAcA0C7ContextV_tFZ">assemble(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">assemble</span><span class="p">(</span><span class="n">with</span> <span class="nv">context</span><span class="p">:</span> <span class="kt"><a href="../Structs/FilterContext.html">FilterContext</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FilterContainer</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright message here</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
