@@ -14,10 +14,12 @@ protocol UserProfileManagerDescription : AnyObject {
     func changeUserData(userData: UserProfileViewModel, complition: @escaping (Bool) -> Void)
 }
 
+/// Класс, отвечающий за доступ к данным о пользователе из Firebase
 final class UserProfileManager: UserProfileManagerDescription {
     static let shared: UserProfileManagerDescription = UserProfileManager()
     init(){}
 
+    /// Предоставляет доступ к основным данным о пользователе
     func getUserInfo(complition: @escaping (Result<UserProfileViewModel, Error>) -> Void) {
         var userInfo: UserProfileViewModel = UserProfileViewModel(name: "", city: "")
         Auth.auth().addStateDidChangeListener { (auth, user)  in
@@ -51,6 +53,7 @@ final class UserProfileManager: UserProfileManagerDescription {
         }
     }
 
+    /// Предоставляет доступп к данным о городе пользователя
     func getCityService(complition: @escaping (Result<String, Error>) -> Void) {
         Auth.auth().addStateDidChangeListener { (auth, user)  in
             if user != nil {
@@ -77,6 +80,7 @@ final class UserProfileManager: UserProfileManagerDescription {
         }
     }
 
+    /// Обновляет данные о пользователе
     func changeUserData(userData: UserProfileViewModel, complition: @escaping (Bool) -> Void) {
 
         Auth.auth().addStateDidChangeListener { (auth, user)  in

@@ -5,11 +5,14 @@ protocol DetailManagerDescription: AnyObject {
     func isInFavorites(id: Int?, complition: @escaping (Bool) -> Void)
 }
 
+/// Класс, отвечающий за доступ к данным Firebase для экрана детализированной информации о событии
 final class DetailManager: DetailManagerDescription {
     
     static let shared: DetailManagerDescription = DetailManager()
     
     private init() {}
+    
+    /// Предоставляет данные о том, есть ли событие в избранном
     func isInFavorites(id: Int?, complition: @escaping (Bool) -> Void) {
         Auth.auth().addStateDidChangeListener { (auth, user)  in
             guard let user = user else {

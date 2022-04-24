@@ -8,11 +8,13 @@
 
 import UIKit
 
+/// Класс, отвечающий за создание модуля экрана редактора профиля
 final class ChangeUserProfileContainer {
     let input: ChangeUserProfileModuleInput
     let viewController: UIViewController
     private(set) weak var router: ChangeUserProfileRouterInput!
 
+    /// Создает модуль экрана редактора профиля
     class func assemble(with context: ChangeUserProfileContext) -> ChangeUserProfileContainer {
         let router = ChangeUserProfileRouter()
         let interactor = ChangeUserProfileInteractor()

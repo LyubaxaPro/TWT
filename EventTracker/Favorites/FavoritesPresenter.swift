@@ -1,6 +1,7 @@
 import Foundation
 import Firebase
 
+/// Класс, отвечающий за бизнес логику и представление экрана избранного
 final class FavoritesPresenter {
 	weak var view: FavoritesViewInput?
 
@@ -17,7 +18,7 @@ final class FavoritesPresenter {
 }
 
 extension FavoritesPresenter: FavoritesViewOutput {
-    
+    /// Вызывается при загрузке экрана избранного, загружает данные об избранном для авторизованного пользователя и открывает экран авторизации для неавтооризованного
     func didLoadView() {
         Auth.auth().addStateDidChangeListener { (auth, user)  in
             if user != nil {
@@ -28,10 +29,12 @@ extension FavoritesPresenter: FavoritesViewOutput {
         }
     }
     
+    /// Перезагружает данные об избранном
     func didPullRefresh() {
         interactor.load()
     }
     
+    /// Вызывается при нажатии на карточку события, передает управление классу, отвечающему за навигацию, для открытия экрана события
     func didTapCell(poster: PosterViewModel) {
         router.showPoster(with: poster, isInFavorites: true, output: self)
     }

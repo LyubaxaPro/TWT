@@ -9,6 +9,7 @@
 import UIKit
 import PinLayout
 
+/// Класс, отвечающий за представление профиля пользователя
 final class ProfileViewController: UIViewController {
     private let output: ProfileViewOutput
     let buttonLogout = UIButton(frame: CGRect(x: 0,
@@ -103,11 +104,13 @@ final class ProfileViewController: UIViewController {
             .hCenter()
     }
 
+    /// Вызывается при нажатии на кнопку выхода из профиля
     @objc
     func buttonLogoutAction() {
         self.output.didTapLogout()
     }
 
+    /// Вызывается при нажатии на кнопку редактирования профиля
     @objc
     func didTapChangeProfileData() {
         output.didTapChange()
@@ -119,6 +122,7 @@ final class ProfileViewController: UIViewController {
 }
 
 extension ProfileViewController: ProfileViewInput {
+    /// Обновляет экран профиля
     func reloadData() {
         nameLabel.text = "Здравствуйте, \(output.userInfo.name)"
         nameLabel.isHidden = false
